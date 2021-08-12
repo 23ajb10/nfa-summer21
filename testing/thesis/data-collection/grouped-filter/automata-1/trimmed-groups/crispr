@@ -1,0 +1,202 @@
+CRISPR --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 2000
+Total input bytes: 10000000
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 10000000
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 6244256
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 10000000
+Packet 1: 10000000
+Graph (NFA) 1
+   + State count: 74001
+   + State vector length: 2313
+
+tmp_avg_count: 150000000, n_packets: 1, n_subsets: 1, Maximum matches allowed: 150000000
+43588
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 2617.000000 MB, free = 12492.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 18504
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+1 transitions 185632121 times
+2 transitions 8551996 times
+3 transitions 27304870 times
+4 transitions 43727229 times
+5 transitions 80454145 times
+6 transitions 82425687 times
+7 transitions 86744386 times
+8 transitions 90856164 times
+9 transitions 87900511 times
+10 transitions 76123526 times
+11 transitions 70158568 times
+12 transitions 56393802 times
+13 transitions 47001474 times
+14 transitions 15203704 times
+15 transitions 7702355 times
+16 transitions 20216470 times
+17 transitions 51313660 times
+18 transitions 63940689 times
+19 transitions 70082885 times
+20 transitions 73410988 times
+21 transitions 69292739 times
+22 transitions 64070280 times
+23 transitions 42208870 times
+24 transitions 23924435 times
+25 transitions 9070062 times
+26 transitions 5995199 times
+27 transitions 5061437 times
+28 transitions 3405305 times
+29 transitions 2560609 times
+30 transitions 1858142 times
+31 transitions 1357914 times
+32 transitions 16104686 times
+33 transitions 1223520 times
+34 transitions 490603 times
+35 transitions 206563 times
+36 transitions 117121 times
+37 transitions 89150 times
+38 transitions 223744 times
+39 transitions 107665 times
+40 transitions 102862 times
+41 transitions 56459 times
+42 transitions 32271 times
+43 transitions 41036 times
+44 transitions 7312 times
+45 transitions 3930 times
+46 transitions 7115 times
+47 transitions 4 times
+48 transitions 2 times
+49 transitions 315 times
+50 transitions 7 times
+51 transitions 178 times
+52 transitions 146 times
+53 transitions 164 times
+54 transitions 2 times
+56 transitions 1 times
+57 transitions 1 times
+58 transitions 1 times
+59 transitions 2 times
+64 transitions 3 times
+2006 transitions 2356071 times
+2007 transitions 2354339 times
+2010 transitions 2355003 times
+2012 transitions 2353964 times
+2025 transitions 144699 times
+2026 transitions 145743 times
+2028 transitions 145203 times
+2029 transitions 144914 times
+2037 transitions 14 times
+2038 transitions 50 times
+
+< 10: 693597109
+< 50: 799167471
+< 100: 505
+< 500: 0
+< 1000: 0
+< 5000: 10000000
+>= 5000: 0
+Collecting results and saving into files ...
+Host - Total number of matches 620
+host_functions.cu: t_postprocesscpu= 0.003000(ms)
+host_functions.cu: t_free= 35.713000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 35127.254000(ms), Input stream loading: 135.525000(ms), GPU mem alloc: 61.186000(ms), GPU kernel execution: 15882272.679000(ms), Result collecting: 867.745000(ms)
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+1 transitions 184165732 times
+2 transitions 8550814 times
+3 transitions 27260606 times
+4 transitions 43701315 times
+5 transitions 80282871 times
+6 transitions 82267011 times
+7 transitions 86573840 times
+8 transitions 90720965 times
+9 transitions 87738211 times
+10 transitions 75974457 times
+11 transitions 70044334 times
+12 transitions 56365474 times
+13 transitions 47021421 times
+14 transitions 15208914 times
+15 transitions 7702232 times
+16 transitions 20259479 times
+17 transitions 51299970 times
+18 transitions 64060751 times
+19 transitions 70099151 times
+20 transitions 73367132 times
+21 transitions 69325913 times
+22 transitions 64061713 times
+23 transitions 42202636 times
+24 transitions 23950212 times
+25 transitions 9073606 times
+26 transitions 5996060 times
+27 transitions 5062610 times
+28 transitions 3405741 times
+29 transitions 2560479 times
+30 transitions 1857991 times
+31 transitions 1357663 times
+32 transitions 16102088 times
+33 transitions 1223520 times
+34 transitions 490720 times
+35 transitions 206628 times
+36 transitions 117121 times
+37 transitions 89149 times
+38 transitions 223747 times
+39 transitions 107665 times
+40 transitions 102862 times
+41 transitions 56459 times
+42 transitions 32271 times
+43 transitions 41036 times
+44 transitions 7312 times
+45 transitions 3930 times
+46 transitions 7115 times
+47 transitions 4 times
+48 transitions 2 times
+49 transitions 315 times
+50 transitions 7 times
+51 transitions 178 times
+52 transitions 146 times
+53 transitions 164 times
+54 transitions 2 times
+56 transitions 1 times
+57 transitions 1 times
+58 transitions 1 times
+59 transitions 2 times
+64 transitions 3 times
+2006 transitions 2356071 times
+2007 transitions 2354339 times
+2010 transitions 2355003 times
+2012 transitions 2353964 times
+2025 transitions 144699 times
+2026 transitions 145743 times
+2028 transitions 145203 times
+2029 transitions 144914 times
+2037 transitions 14 times
+2038 transitions 50 times
+
+< 10: 691261365
+< 50: 799069883
+< 100: 505
+< 500: 0
+< 1000: 0
+< 5000: 10000000
+>= 5000: 0
+Collecting results and saving into files ...
+Host - Total number of matches 620
+host_functions.cu: t_postprocesscpu= 0.003000(ms)
+host_functions.cu: t_free= 36.803000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 26525.141000(ms), Input stream loading: 135.104000(ms), GPU mem alloc: 32.935000(ms), GPU kernel execution: 14623879.392000(ms), Result collecting: 867.768000(ms)

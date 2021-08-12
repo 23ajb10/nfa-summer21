@@ -1,0 +1,402 @@
+PROTOMATA --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 1309
+Total input bytes: 11758010
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 11758010
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 3050161
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 11758010
+Packet 1: 11758012
+Graph (NFA) 1
+   + State count: 24104
+   + State vector length: 754
+
+tmp_avg_count: 176370180, n_packets: 1, n_subsets: 1, Maximum matches allowed: 176370180
+1387884
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 1490.000000 MB, free = 13619.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 6032
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 867853
+host_functions.cu: t_postprocesscpu= 0.005000(ms)
+host_functions.cu: t_free= 40.320000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 8813.388000(ms), Input stream loading: 157.759000(ms), GPU mem alloc: 10.015000(ms), GPU kernel execution: 73348.985000(ms), Result collecting: 1031.667000(ms)
+-----------------User input info--------------------
+Total number of rules (subgraphs): 1309
+Total input bytes: 11758010
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 11758010
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 3050161
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 11758010
+Packet 1: 11758012
+Graph (NFA) 1
+   + State count: 24104
+   + State vector length: 754
+
+tmp_avg_count: 176370180, n_packets: 1, n_subsets: 1, Maximum matches allowed: 176370180
+1387884
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 1516.000000 MB, free = 13593.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 6032
+GPU kernel running ... 
+BRILL --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 5946
+Total input bytes: 2058315
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 2058315
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 867853
+host_functions.cu: t_postprocesscpu= 0.004000(ms)
+host_functions.cu: t_free= 41.735000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 8973.572000(ms), Input stream loading: 158.251000(ms), GPU mem alloc: 10.242000(ms), GPU kernel execution: 704796.712000(ms), Result collecting: 1029.581000(ms)
+==PROF== Connected to process 12016 (/home/ubuntu/thesis/testing/thesis/bin/nfa_engine)
+==PROF== Disconnected from process 12016
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","12016","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:31:10","1","7","Command line profiler metrics","dram__bytes_read.sum","byte","111949184"
+"0","12016","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:31:10","1","7","Command line profiler metrics","dram__sectors_read.sum","sector","3498412"
+"0","12016","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:31:10","1","7","Command line profiler metrics","l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum","request","9218729863"
+"0","12016","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:31:10","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","33994096645"
+"0","12016","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:31:10","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld_lookup_hit.sum","sector","0"
+"0","12016","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:31:10","1","7","Command line profiler metrics","lts__t_sector_hit_rate.pct","%","100.00"
+"0","12016","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:31:10","1","7","Command line profiler metrics","lts__t_sectors_op_atom.sum","sector","0"
+"0","12016","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:31:10","1","7","Command line profiler metrics","lts__t_sectors_op_read.sum","sector","34012751315"
+"0","12016","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:31:10","1","7","Command line profiler metrics","lts__t_sectors_op_red.sum","sector","0"
+"0","12016","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:31:10","1","7","Command line profiler metrics","lts__t_sectors_srcunit_tex_op_read.sum","sector","33994096645"
+"0","12016","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:31:10","1","7","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","33.29"
+"0","12016","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:31:10","1","7","Command line profiler metrics","smsp__inst_executed.sum","inst","107519899825"
+"0","12016","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:31:10","1","7","Command line profiler metrics","smsp__inst_executed_op_global_ld.sum","inst","9218729927"
+"0","12016","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:31:10","1","7","Command line profiler metrics","smsp__inst_executed_op_local_ld.sum","inst","0"
+"0","12016","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:31:10","1","7","Command line profiler metrics","smsp__inst_executed_op_shared_ld.sum","inst","7300601105"
+SEQMATCH --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 1719
+Total input bytes: 1072482
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 1072482
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 11113297
+Total transitions (including paddings): 12717418
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 2058315
+Packet 1: 2058316
+Graph (NFA) 1
+   + State count: 115550
+   + State vector length: 3611
+
+tmp_avg_count: 30874740, n_packets: 1, n_subsets: 1, Maximum matches allowed: 30874740
+13242996
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 681.000000 MB, free = 14428.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 28888
+GPU kernel running ... 
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 1072482
+Packet 1: 1072484
+Graph (NFA) 1
+   + State count: 51571
+   + State vector length: 1612
+
+tmp_avg_count: 16087260, n_packets: 1, n_subsets: 1, Maximum matches allowed: 16087260
+4008792
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 913.000000 MB, free = 14196.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 12896
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 1402433
+host_functions.cu: t_postprocesscpu= 0.004000(ms)
+host_functions.cu: t_free= 3.680000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 39665.842000(ms), Input stream loading: 14.508000(ms), GPU mem alloc: 35.476000(ms), GPU kernel execution: 44423.567000(ms), Result collecting: 24.671000(ms)
+-----------------User input info--------------------
+Total number of rules (subgraphs): 1719
+Total input bytes: 1072482
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 1072482
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 18187831
+host_functions.cu: t_postprocesscpu= 0.004000(ms)
+host_functions.cu: t_free= 4.793000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 51786.333000(ms), Input stream loading: 27.504000(ms), GPU mem alloc: 19.974000(ms), GPU kernel execution: 65824.361000(ms), Result collecting: 51.232000(ms)
+Total transitions (including paddings): 12717418
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 1072482
+Packet 1: 1072484
+Graph (NFA) 1
+   + State count: 51571
+   + State vector length: 1612
+
+tmp_avg_count: 16087260, n_packets: 1, n_subsets: 1, Maximum matches allowed: 16087260
+4008792
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 488.000000 MB, free = 14621.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 12896
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 1402433
+host_functions.cu: t_postprocesscpu= 0.004000(ms)
+host_functions.cu: t_free= 3.720000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 38635.704000(ms), Input stream loading: 14.567000(ms), GPU mem alloc: 19.479000(ms), GPU kernel execution: 45619.959000(ms), Result collecting: 24.748000(ms)
+==PROF== Connected to process 12087 (/home/ubuntu/thesis/testing/thesis/bin/nfa_engine)
+==PROF== Disconnected from process 12087
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","12087","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:34:00","1","7","Command line profiler metrics","dram__bytes_read.sum","byte","28315200544"
+"0","12087","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:34:00","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","10265870374"
+"0","12087","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:34:00","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld_lookup_hit.sum","sector","0"
+"0","12087","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:34:00","1","7","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","100.00"
+-----------------User input info--------------------
+Total number of rules (subgraphs): 1719
+Total input bytes: 1072482
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 1072482
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 12717418
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 1072482
+Packet 1: 1072484
+Graph (NFA) 1
+   + State count: 51571
+   + State vector length: 1612
+
+tmp_avg_count: 16087260, n_packets: 1, n_subsets: 1, Maximum matches allowed: 16087260
+4008792
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 362.000000 MB, free = 14747.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 12896
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 1402433
+host_functions.cu: t_postprocesscpu= 0.003000(ms)
+host_functions.cu: t_free= 3.922000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 38620.435000(ms), Input stream loading: 14.510000(ms), GPU mem alloc: 19.478000(ms), GPU kernel execution: 182374.507000(ms), Result collecting: 26.680000(ms)
+==PROF== Connected to process 12119 (/home/ubuntu/thesis/testing/thesis/bin/nfa_engine)
+==PROF== Disconnected from process 12119
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","12119","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:37:41","1","7","Command line profiler metrics","dram__bytes_read.sum","byte","28958752256"
+"0","12119","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:37:41","1","7","Command line profiler metrics","dram__sectors_read.sum","sector","904961008"
+"0","12119","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:37:41","1","7","Command line profiler metrics","l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum","request","2726247014"
+"0","12119","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:37:41","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","10265870374"
+"0","12119","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:37:41","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld_lookup_hit.sum","sector","0"
+"0","12119","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:37:41","1","7","Command line profiler metrics","lts__t_sector_hit_rate.pct","%","94.91"
+"0","12119","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:37:41","1","7","Command line profiler metrics","lts__t_sectors_op_atom.sum","sector","0"
+"0","12119","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:37:41","1","7","Command line profiler metrics","lts__t_sectors_op_read.sum","sector","10270727084"
+"0","12119","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:37:41","1","7","Command line profiler metrics","lts__t_sectors_op_red.sum","sector","0"
+"0","12119","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:37:41","1","7","Command line profiler metrics","lts__t_sectors_srcunit_tex_op_read.sum","sector","10265870374"
+"0","12119","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:37:41","1","7","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","100.00"
+"0","12119","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:37:41","1","7","Command line profiler metrics","smsp__inst_executed.sum","inst","30753824877"
+"0","12119","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:37:41","1","7","Command line profiler metrics","smsp__inst_executed_op_global_ld.sum","inst","2726247078"
+"0","12119","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:37:41","1","7","Command line profiler metrics","smsp__inst_executed_op_local_ld.sum","inst","0"
+"0","12119","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:37:41","1","7","Command line profiler metrics","smsp__inst_executed_op_shared_ld.sum","inst","2063544289"
+CRISPR --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 2000
+Total input bytes: 10000000
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 10000000
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 6244256
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 10000000
+Packet 1: 10000000
+Graph (NFA) 1
+   + State count: 74001
+   + State vector length: 2313
+
+tmp_avg_count: 150000000, n_packets: 1, n_subsets: 1, Maximum matches allowed: 150000000
+680020
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 1336.000000 MB, free = 13773.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 18504
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 620
+host_functions.cu: t_postprocesscpu= 0.004000(ms)
+host_functions.cu: t_free= 36.014000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 27125.399000(ms), Input stream loading: 134.757000(ms), GPU mem alloc: 13.415000(ms), GPU kernel execution: 326695.617000(ms), Result collecting: 875.187000(ms)
+==PROF== Connected to process 12159 (/home/ubuntu/thesis/testing/thesis/bin/nfa_engine)
+==PROF== Disconnected from process 12159
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","12159","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:43:35","1","7","Command line profiler metrics","dram__bytes_read.sum","byte","81590784"
+"0","12159","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:43:35","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","75912206880"
+"0","12159","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:43:35","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld_lookup_hit.sum","sector","0"
+"0","12159","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-14 15:43:35","1","7","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","17.94"
+-----------------User input info--------------------
+Total number of rules (subgraphs): 2000
+Total input bytes: 10000000
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 10000000
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 6244256
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 10000000
+Packet 1: 10000000
+Graph (NFA) 1
+   + State count: 74001
+   + State vector length: 2313
+
+tmp_avg_count: 150000000, n_packets: 1, n_subsets: 1, Maximum matches allowed: 150000000
+680020
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 1310.000000 MB, free = 13799.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 18504
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 620
+host_functions.cu: t_postprocesscpu= 0.005000(ms)
+host_functions.cu: t_free= 35.848000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 27496.722000(ms), Input stream loading: 134.863000(ms), GPU mem alloc: 13.167000(ms), GPU kernel execution: 134336.388000(ms), Result collecting: 876.523000(ms)
+-----------------User input info--------------------
+Total number of rules (subgraphs): 2000
+Total input bytes: 10000000
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 10000000
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 6244256
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 10000000
+Packet 1: 10000000
+Graph (NFA) 1
+   + State count: 74001
+   + State vector length: 2313
+
+tmp_avg_count: 150000000, n_packets: 1, n_subsets: 1, Maximum matches allowed: 150000000
+680020
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 1336.000000 MB, free = 13773.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 18504
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 620
+host_functions.cu: t_postprocesscpu= 0.004000(ms)
+host_functions.cu: t_free= 38.203000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 26560.321000(ms), Input stream loading: 134.844000(ms), GPU mem alloc: 13.392000(ms), GPU kernel execution: 1303665.097000(ms), Result collecting: 877.643000(ms)
+==PROF== Connected to process 12415 (/home/ubuntu/thesis/testing/thesis/bin/nfa_engine)
+==ERROR== Failed to profile kernel "nfa_kernel" in process 12415
+==PROF== Disconnected from process 12415
+==ERROR== An error occurred while trying to profile.
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.

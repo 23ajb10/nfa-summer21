@@ -1,0 +1,126 @@
+SEQMATCH --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 1719
+Total input bytes: 1072482
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 1072482
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 12717418
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 1072482
+Packet 1: 1072484
+Graph (NFA) 1
+   + State count: 51571
+   + State vector length: 1612
+
+tmp_avg_count: 16087260, n_packets: 1, n_subsets: 1, Maximum matches allowed: 16087260
+128240
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 330.000000 MB, free = 14779.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 12896
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+1 transitions 6227469 times
+2 transitions 36365 times
+4 transitions 74663 times
+5 transitions 144347 times
+6 transitions 108034 times
+9 transitions 36355 times
+18 transitions 9 times
+19 transitions 1 times
+32 transitions 6718315 times
+33 transitions 181785 times
+34 transitions 229150 times
+35 transitions 33916 times
+36 transitions 127570 times
+37 transitions 232395 times
+38 transitions 165500 times
+39 transitions 15979 times
+40 transitions 16702 times
+41 transitions 29610 times
+42 transitions 42524 times
+43 transitions 60460 times
+44 transitions 23092 times
+45 transitions 6318 times
+46 transitions 7760 times
+47 transitions 6644 times
+48 transitions 8298 times
+49 transitions 1336 times
+50 transitions 5505 times
+51 transitions 393 times
+52 transitions 80 times
+53 transitions 298 times
+54 transitions 234 times
+55 transitions 12 times
+56 transitions 201 times
+57 transitions 5 times
+58 transitions 31 times
+59 transitions 127 times
+60 transitions 120 times
+61 transitions 21 times
+63 transitions 23239 times
+64 transitions 67872 times
+65 transitions 546 times
+66 transitions 322 times
+67 transitions 106 times
+68 transitions 1013 times
+69 transitions 1021 times
+70 transitions 910 times
+71 transitions 46 times
+72 transitions 68 times
+73 transitions 91 times
+74 transitions 276 times
+75 transitions 87 times
+76 transitions 116 times
+77 transitions 101 times
+78 transitions 104 times
+79 transitions 210 times
+80 transitions 105 times
+81 transitions 82 times
+82 transitions 102 times
+83 transitions 120 times
+84 transitions 145 times
+85 transitions 53 times
+86 transitions 170 times
+87 transitions 123 times
+88 transitions 170 times
+89 transitions 138 times
+90 transitions 157 times
+91 transitions 141 times
+92 transitions 257 times
+93 transitions 20 times
+94 transitions 20 times
+95 transitions 126 times
+96 transitions 202 times
+97 transitions 14 times
+99 transitions 79 times
+100 transitions 78 times
+101 transitions 15 times
+106 transitions 15 times
+1725 transitions 36365 times
+8622 transitions 1 times
+
+< 10: 6627233
+< 50: 7907364
+< 100: 105379
+< 500: 108
+< 1000: 0
+< 5000: 36365
+>= 5000: 1
+Collecting results and saving into files ...
+Host - Total number of matches 1402433
+host_functions.cu: t_postprocesscpu= 0.002000(ms)
+host_functions.cu: t_free= 3.867000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 39414.621000(ms), Input stream loading: 14.680000(ms), GPU mem alloc: 18.094000(ms), GPU kernel execution: 41106.479000(ms), Result collecting: 30.526000(ms)

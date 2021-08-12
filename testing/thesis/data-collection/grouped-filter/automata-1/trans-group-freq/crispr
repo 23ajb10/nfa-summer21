@@ -1,0 +1,3251 @@
+CRISPR --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 2000
+Total input bytes: 10000000
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 10000000
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 6244256
+
+Frequencies for each symbol
+
+Symbol 0:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 1:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 2:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 3:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 4:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 5:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 6:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 7:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 8:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 9:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 10:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 11:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 12:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 13:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 14:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 15:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 16:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 17:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 18:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 19:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 20:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 21:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 22:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 23:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 24:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 25:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 26:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 27:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 28:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 29:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 30:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 31:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 32:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 33:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 34:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 35:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 36:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 37:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 38:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 39:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 40:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 41:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 42:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 43:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 44:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 45:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 46:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 47:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 48:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 49:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 50:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 51:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 52:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 53:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 54:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 55:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 56:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 57:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 58:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 59:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 60:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 61:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 62:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 63:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 64:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 65:
+0 transitions 186 time(s).
+1 transitions 2 time(s).
+2 transitions 4 time(s).
+3 transitions 10 time(s).
+4 transitions 24 time(s).
+5 transitions 65 time(s).
+6 transitions 77 time(s).
+7 transitions 119 time(s).
+8 transitions 110 time(s).
+9 transitions 97 time(s).
+10 transitions 69 time(s).
+11 transitions 51 time(s).
+12 transitions 29 time(s).
+13 transitions 22 time(s).
+14 transitions 4 time(s).
+15 transitions 6 time(s).
+16 transitions 21 time(s).
+17 transitions 75 time(s).
+18 transitions 138 time(s).
+19 transitions 266 time(s).
+20 transitions 291 time(s).
+21 transitions 221 time(s).
+22 transitions 138 time(s).
+23 transitions 58 time(s).
+24 transitions 27 time(s).
+25 transitions 11 time(s).
+26 transitions 3 time(s).
+31 transitions 1 time(s).
+32 transitions 186 time(s).
+2006 transitions 1 time(s).
+
+Symbol 66:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 67:
+0 transitions 312 time(s).
+1 transitions 1 time(s).
+2 transitions 5 time(s).
+3 transitions 5 time(s).
+4 transitions 35 time(s).
+5 transitions 61 time(s).
+6 transitions 75 time(s).
+7 transitions 104 time(s).
+8 transitions 119 time(s).
+9 transitions 97 time(s).
+10 transitions 64 time(s).
+11 transitions 61 time(s).
+12 transitions 33 time(s).
+13 transitions 17 time(s).
+14 transitions 7 time(s).
+15 transitions 5 time(s).
+16 transitions 20 time(s).
+17 transitions 68 time(s).
+18 transitions 174 time(s).
+19 transitions 230 time(s).
+20 transitions 288 time(s).
+21 transitions 210 time(s).
+22 transitions 151 time(s).
+23 transitions 70 time(s).
+24 transitions 29 time(s).
+25 transitions 5 time(s).
+26 transitions 2 time(s).
+27 transitions 1 time(s).
+32 transitions 62 time(s).
+2010 transitions 1 time(s).
+
+Symbol 68:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 69:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 70:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 71:
+0 transitions 186 time(s).
+1 transitions 3 time(s).
+2 transitions 2 time(s).
+3 transitions 14 time(s).
+4 transitions 19 time(s).
+5 transitions 55 time(s).
+6 transitions 80 time(s).
+7 transitions 123 time(s).
+8 transitions 107 time(s).
+9 transitions 107 time(s).
+10 transitions 84 time(s).
+11 transitions 48 time(s).
+12 transitions 17 time(s).
+13 transitions 16 time(s).
+14 transitions 10 time(s).
+15 transitions 7 time(s).
+16 transitions 21 time(s).
+17 transitions 81 time(s).
+18 transitions 160 time(s).
+19 transitions 241 time(s).
+20 transitions 266 time(s).
+21 transitions 231 time(s).
+22 transitions 141 time(s).
+23 transitions 70 time(s).
+24 transitions 24 time(s).
+25 transitions 8 time(s).
+26 transitions 2 time(s).
+27 transitions 1 time(s).
+31 transitions 1 time(s).
+32 transitions 186 time(s).
+2007 transitions 1 time(s).
+
+Symbol 72:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 73:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 74:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 75:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 76:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 77:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 78:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 79:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 80:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 81:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 82:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 83:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 84:
+0 transitions 311 time(s).
+1 transitions 3 time(s).
+2 transitions 8 time(s).
+3 transitions 10 time(s).
+4 transitions 31 time(s).
+5 transitions 52 time(s).
+6 transitions 92 time(s).
+7 transitions 98 time(s).
+8 transitions 117 time(s).
+9 transitions 91 time(s).
+10 transitions 73 time(s).
+11 transitions 50 time(s).
+12 transitions 36 time(s).
+13 transitions 21 time(s).
+14 transitions 4 time(s).
+15 transitions 3 time(s).
+16 transitions 19 time(s).
+17 transitions 99 time(s).
+18 transitions 163 time(s).
+19 transitions 224 time(s).
+20 transitions 258 time(s).
+21 transitions 231 time(s).
+22 transitions 146 time(s).
+23 transitions 72 time(s).
+24 transitions 31 time(s).
+25 transitions 4 time(s).
+26 transitions 2 time(s).
+32 transitions 62 time(s).
+2012 transitions 1 time(s).
+
+Symbol 85:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 86:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 87:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 88:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 89:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 90:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 91:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 92:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 93:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 94:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 95:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 96:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 97:
+0 transitions 186 time(s).
+1 transitions 2 time(s).
+2 transitions 4 time(s).
+3 transitions 10 time(s).
+4 transitions 24 time(s).
+5 transitions 65 time(s).
+6 transitions 77 time(s).
+7 transitions 119 time(s).
+8 transitions 110 time(s).
+9 transitions 97 time(s).
+10 transitions 69 time(s).
+11 transitions 51 time(s).
+12 transitions 29 time(s).
+13 transitions 22 time(s).
+14 transitions 4 time(s).
+15 transitions 6 time(s).
+16 transitions 21 time(s).
+17 transitions 75 time(s).
+18 transitions 138 time(s).
+19 transitions 266 time(s).
+20 transitions 291 time(s).
+21 transitions 221 time(s).
+22 transitions 138 time(s).
+23 transitions 58 time(s).
+24 transitions 27 time(s).
+25 transitions 11 time(s).
+26 transitions 3 time(s).
+31 transitions 1 time(s).
+32 transitions 186 time(s).
+2006 transitions 1 time(s).
+
+Symbol 98:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 99:
+0 transitions 312 time(s).
+1 transitions 1 time(s).
+2 transitions 5 time(s).
+3 transitions 5 time(s).
+4 transitions 35 time(s).
+5 transitions 61 time(s).
+6 transitions 75 time(s).
+7 transitions 104 time(s).
+8 transitions 119 time(s).
+9 transitions 97 time(s).
+10 transitions 64 time(s).
+11 transitions 61 time(s).
+12 transitions 33 time(s).
+13 transitions 17 time(s).
+14 transitions 7 time(s).
+15 transitions 5 time(s).
+16 transitions 20 time(s).
+17 transitions 68 time(s).
+18 transitions 174 time(s).
+19 transitions 230 time(s).
+20 transitions 288 time(s).
+21 transitions 210 time(s).
+22 transitions 151 time(s).
+23 transitions 70 time(s).
+24 transitions 29 time(s).
+25 transitions 5 time(s).
+26 transitions 2 time(s).
+27 transitions 1 time(s).
+32 transitions 62 time(s).
+2010 transitions 1 time(s).
+
+Symbol 100:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 101:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 102:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 103:
+0 transitions 186 time(s).
+1 transitions 3 time(s).
+2 transitions 2 time(s).
+3 transitions 14 time(s).
+4 transitions 19 time(s).
+5 transitions 55 time(s).
+6 transitions 80 time(s).
+7 transitions 123 time(s).
+8 transitions 107 time(s).
+9 transitions 107 time(s).
+10 transitions 84 time(s).
+11 transitions 48 time(s).
+12 transitions 17 time(s).
+13 transitions 16 time(s).
+14 transitions 10 time(s).
+15 transitions 7 time(s).
+16 transitions 21 time(s).
+17 transitions 81 time(s).
+18 transitions 160 time(s).
+19 transitions 241 time(s).
+20 transitions 266 time(s).
+21 transitions 231 time(s).
+22 transitions 141 time(s).
+23 transitions 70 time(s).
+24 transitions 24 time(s).
+25 transitions 8 time(s).
+26 transitions 2 time(s).
+27 transitions 1 time(s).
+31 transitions 1 time(s).
+32 transitions 186 time(s).
+2007 transitions 1 time(s).
+
+Symbol 104:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 105:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 106:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 107:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 108:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 109:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 110:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 111:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 112:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 113:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 114:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 115:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 116:
+0 transitions 311 time(s).
+1 transitions 3 time(s).
+2 transitions 8 time(s).
+3 transitions 10 time(s).
+4 transitions 31 time(s).
+5 transitions 52 time(s).
+6 transitions 92 time(s).
+7 transitions 98 time(s).
+8 transitions 117 time(s).
+9 transitions 91 time(s).
+10 transitions 73 time(s).
+11 transitions 50 time(s).
+12 transitions 36 time(s).
+13 transitions 21 time(s).
+14 transitions 4 time(s).
+15 transitions 3 time(s).
+16 transitions 19 time(s).
+17 transitions 99 time(s).
+18 transitions 163 time(s).
+19 transitions 224 time(s).
+20 transitions 258 time(s).
+21 transitions 231 time(s).
+22 transitions 146 time(s).
+23 transitions 72 time(s).
+24 transitions 31 time(s).
+25 transitions 4 time(s).
+26 transitions 2 time(s).
+32 transitions 62 time(s).
+2012 transitions 1 time(s).
+
+Symbol 117:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 118:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 119:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 120:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 121:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 122:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 123:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 124:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 125:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 126:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 127:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 128:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 129:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 130:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 131:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 132:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 133:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 134:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 135:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 136:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 137:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 138:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 139:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 140:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 141:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 142:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 143:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 144:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 145:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 146:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 147:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 148:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 149:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 150:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 151:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 152:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 153:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 154:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 155:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 156:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 157:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 158:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 159:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 160:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 161:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 162:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 163:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 164:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 165:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 166:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 167:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 168:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 169:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 170:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 171:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 172:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 173:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 174:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 175:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 176:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 177:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 178:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 179:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 180:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 181:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 182:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 183:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 184:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 185:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 186:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 187:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 188:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 189:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 190:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 191:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 192:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 193:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 194:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 195:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 196:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 197:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 198:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 199:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 200:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 201:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 202:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 203:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 204:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 205:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 206:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 207:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 208:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 209:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 210:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 211:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 212:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 213:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 214:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 215:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 216:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 217:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 218:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 219:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 220:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 221:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 222:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 223:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 224:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 225:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 226:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 227:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 228:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 229:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 230:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 231:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 232:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 233:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 234:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 235:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 236:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 237:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 238:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 239:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 240:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 241:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 242:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 243:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 244:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 245:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 246:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 247:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 248:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 249:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 250:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 251:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 252:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 253:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 254:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 255:
+0 transitions 990 time(s).
+1 transitions 3 time(s).
+7 transitions 4 time(s).
+8 transitions 3 time(s).
+9 transitions 3 time(s).
+15 transitions 271 time(s).
+16 transitions 706 time(s).
+17 transitions 269 time(s).
+32 transitions 62 time(s).
+2001 transitions 1 time(s).
+
+Symbol 256:
+0 transitions 2312 time(s).
+
+NFA loading done!!!
+

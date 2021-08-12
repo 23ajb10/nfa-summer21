@@ -1,0 +1,435 @@
+BRILL --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 5946
+Total input bytes: 2058315
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 2058315
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 11113297
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 2058315
+Packet 1: 2058316
+Graph (NFA) 1
+   + State count: 115550
+   + State vector length: 3611
+
+tmp_avg_count: 30874740, n_packets: 1, n_subsets: 1, Maximum matches allowed: 30874740
+653764
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 1290.000000 MB, free = 13819.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 28888
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+1 transitions 30022110 times
+2 transitions 4220389 times
+3 transitions 3651064 times
+4 transitions 2957649 times
+5 transitions 3089144 times
+6 transitions 3353184 times
+7 transitions 2731647 times
+8 transitions 2497980 times
+9 transitions 1821750 times
+10 transitions 2113734 times
+11 transitions 2072100 times
+12 transitions 4236219 times
+13 transitions 2865018 times
+14 transitions 2632526 times
+15 transitions 2364129 times
+16 transitions 2708778 times
+17 transitions 3162573 times
+18 transitions 2636811 times
+19 transitions 3688742 times
+20 transitions 3066726 times
+21 transitions 2768306 times
+22 transitions 1589731 times
+23 transitions 3564065 times
+24 transitions 1811200 times
+25 transitions 2464538 times
+26 transitions 3168922 times
+27 transitions 1924329 times
+28 transitions 4354266 times
+29 transitions 3929722 times
+30 transitions 6551711 times
+31 transitions 9850864 times
+32 transitions 12898903 times
+33 transitions 600740 times
+34 transitions 718804 times
+35 transitions 292073 times
+36 transitions 319959 times
+37 transitions 914368 times
+38 transitions 582564 times
+39 transitions 492951 times
+40 transitions 872587 times
+41 transitions 309120 times
+42 transitions 640992 times
+43 transitions 847940 times
+44 transitions 573845 times
+45 transitions 710512 times
+46 transitions 917937 times
+47 transitions 258570 times
+48 transitions 430495 times
+49 transitions 498339 times
+50 transitions 535500 times
+51 transitions 317115 times
+52 transitions 159234 times
+53 transitions 18311 times
+54 transitions 44608 times
+55 transitions 228851 times
+56 transitions 302943 times
+57 transitions 42211 times
+58 transitions 340206 times
+59 transitions 22082 times
+60 transitions 231510 times
+61 transitions 380313 times
+62 transitions 359787 times
+63 transitions 308261 times
+64 transitions 758652 times
+65 transitions 140 times
+66 transitions 1599 times
+67 transitions 498 times
+68 transitions 148 times
+69 transitions 75 times
+70 transitions 775 times
+71 transitions 1421 times
+72 transitions 289 times
+73 transitions 1202 times
+74 transitions 2825 times
+75 transitions 550 times
+76 transitions 146 times
+77 transitions 287 times
+78 transitions 10 times
+79 transitions 326 times
+80 transitions 1082 times
+81 transitions 49 times
+82 transitions 403 times
+83 transitions 959 times
+84 transitions 979 times
+87 transitions 217 times
+88 transitions 905 times
+89 transitions 1947 times
+90 transitions 1 times
+91 transitions 37 times
+92 transitions 7853 times
+93 transitions 10 times
+94 transitions 278 times
+96 transitions 988 times
+99 transitions 3 times
+100 transitions 1688 times
+108 transitions 2185 times
+947 transitions 1735489 times
+948 transitions 22 times
+949 transitions 10 times
+951 transitions 988 times
+952 transitions 430 times
+955 transitions 6 times
+958 transitions 166 times
+959 transitions 5 times
+963 transitions 9 times
+966 transitions 1 times
+968 transitions 141 times
+969 transitions 1 times
+971 transitions 585 times
+972 transitions 16 times
+974 transitions 10 times
+975 transitions 67 times
+976 transitions 444 times
+977 transitions 1222 times
+978 transitions 50206 times
+1008 transitions 5 times
+5032 transitions 268465 times
+5063 transitions 28 times
+
+< 10: 156888401
+< 50: 0
+< 100: 0
+< 500: 0
+< 1000: 0
+< 5000: 0
+>= 5000: 0
+Collecting results and saving into files ...
+Host - Total number of matches 18187831
+host_functions.cu: t_postprocesscpu= 0.002000(ms)
+host_functions.cu: t_free= 3.647000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 37926.006000(ms), Input stream loading: 27.484000(ms), GPU mem alloc: 16.555000(ms), GPU kernel execution: 3522640.455000(ms), Result collecting: 48.105000(ms)
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+1 transitions 29881585 times
+2 transitions 4215185 times
+3 transitions 3653375 times
+4 transitions 2961155 times
+5 transitions 3091200 times
+6 transitions 3354085 times
+7 transitions 2727430 times
+8 transitions 2498254 times
+9 transitions 1820394 times
+10 transitions 2110947 times
+11 transitions 2072247 times
+12 transitions 4234922 times
+13 transitions 2868369 times
+14 transitions 2629647 times
+15 transitions 2357659 times
+16 transitions 2711541 times
+17 transitions 3158483 times
+18 transitions 2641600 times
+19 transitions 3687696 times
+20 transitions 3063934 times
+21 transitions 2770217 times
+22 transitions 1589815 times
+23 transitions 3561554 times
+24 transitions 1811658 times
+25 transitions 2467553 times
+26 transitions 3166496 times
+27 transitions 1931332 times
+28 transitions 4337944 times
+29 transitions 3934989 times
+30 transitions 6518569 times
+31 transitions 9789647 times
+32 transitions 12831127 times
+33 transitions 600422 times
+34 transitions 715957 times
+35 transitions 292065 times
+36 transitions 319420 times
+37 transitions 913196 times
+38 transitions 582417 times
+39 transitions 493002 times
+40 transitions 871875 times
+41 transitions 308865 times
+42 transitions 640902 times
+43 transitions 846890 times
+44 transitions 573703 times
+45 transitions 710650 times
+46 transitions 916386 times
+47 transitions 258607 times
+48 transitions 430551 times
+49 transitions 498447 times
+50 transitions 535513 times
+51 transitions 317091 times
+52 transitions 159230 times
+53 transitions 18312 times
+54 transitions 44608 times
+55 transitions 228870 times
+56 transitions 302943 times
+57 transitions 42211 times
+58 transitions 340193 times
+59 transitions 22080 times
+60 transitions 232030 times
+61 transitions 379468 times
+62 transitions 359789 times
+63 transitions 308214 times
+64 transitions 759265 times
+65 transitions 140 times
+66 transitions 1599 times
+67 transitions 498 times
+68 transitions 148 times
+69 transitions 75 times
+70 transitions 775 times
+71 transitions 1420 times
+72 transitions 289 times
+73 transitions 1202 times
+74 transitions 2825 times
+75 transitions 550 times
+76 transitions 146 times
+77 transitions 287 times
+78 transitions 10 times
+79 transitions 326 times
+80 transitions 1082 times
+81 transitions 49 times
+82 transitions 403 times
+83 transitions 959 times
+84 transitions 979 times
+87 transitions 217 times
+88 transitions 905 times
+89 transitions 1947 times
+90 transitions 1 times
+91 transitions 37 times
+92 transitions 7919 times
+93 transitions 10 times
+94 transitions 278 times
+96 transitions 988 times
+99 transitions 3 times
+100 transitions 1688 times
+108 transitions 2185 times
+947 transitions 1735489 times
+948 transitions 22 times
+949 transitions 10 times
+951 transitions 988 times
+952 transitions 430 times
+955 transitions 6 times
+958 transitions 166 times
+959 transitions 5 times
+963 transitions 9 times
+966 transitions 1 times
+968 transitions 141 times
+969 transitions 1 times
+971 transitions 585 times
+972 transitions 16 times
+974 transitions 10 times
+975 transitions 67 times
+976 transitions 444 times
+977 transitions 1222 times
+978 transitions 50206 times
+1008 transitions 5 times
+5032 transitions 268465 times
+5063 transitions 28 times
+
+< 10: 156562037
+< 50: 0
+< 100: 0
+< 500: 0
+< 1000: 0
+< 5000: 0
+>= 5000: 0
+Collecting results and saving into files ...
+Host - Total number of matches 18187831
+host_functions.cu: t_postprocesscpu= 0.003000(ms)
+host_functions.cu: t_free= 3.914000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 57480.701000(ms), Input stream loading: 42.753000(ms), GPU mem alloc: 36.148000(ms), GPU kernel execution: 3646218.375000(ms), Result collecting: 52.581000(ms)
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+1 transitions 29858735 times
+2 transitions 4225769 times
+3 transitions 3650649 times
+4 transitions 2960813 times
+5 transitions 3088357 times
+6 transitions 3353113 times
+7 transitions 2739861 times
+8 transitions 2496492 times
+9 transitions 1822237 times
+10 transitions 2112385 times
+11 transitions 2073818 times
+12 transitions 4246743 times
+13 transitions 2860223 times
+14 transitions 2629704 times
+15 transitions 2370501 times
+16 transitions 2706320 times
+17 transitions 3165941 times
+18 transitions 2641521 times
+19 transitions 3691010 times
+20 transitions 3068222 times
+21 transitions 2766658 times
+22 transitions 1590724 times
+23 transitions 3555273 times
+24 transitions 1810288 times
+25 transitions 2465163 times
+26 transitions 3173465 times
+27 transitions 1927224 times
+28 transitions 4346711 times
+29 transitions 3928625 times
+30 transitions 6534184 times
+31 transitions 9824426 times
+32 transitions 12822723 times
+33 transitions 600279 times
+34 transitions 715964 times
+35 transitions 292075 times
+36 transitions 320914 times
+37 transitions 913539 times
+38 transitions 583127 times
+39 transitions 493025 times
+40 transitions 871972 times
+41 transitions 308945 times
+42 transitions 641301 times
+43 transitions 848856 times
+44 transitions 574181 times
+45 transitions 710403 times
+46 transitions 898470 times
+47 transitions 258633 times
+48 transitions 430238 times
+49 transitions 497757 times
+50 transitions 535536 times
+51 transitions 317103 times
+52 transitions 159236 times
+53 transitions 18312 times
+54 transitions 44607 times
+55 transitions 228857 times
+56 transitions 302943 times
+57 transitions 42211 times
+58 transitions 340248 times
+59 transitions 22084 times
+60 transitions 229654 times
+61 transitions 379888 times
+62 transitions 359787 times
+63 transitions 308285 times
+64 transitions 756517 times
+65 transitions 140 times
+66 transitions 1599 times
+67 transitions 498 times
+68 transitions 148 times
+69 transitions 75 times
+70 transitions 775 times
+71 transitions 1419 times
+72 transitions 289 times
+73 transitions 1202 times
+74 transitions 2825 times
+75 transitions 550 times
+76 transitions 146 times
+77 transitions 287 times
+78 transitions 10 times
+79 transitions 326 times
+80 transitions 1082 times
+81 transitions 49 times
+82 transitions 403 times
+83 transitions 959 times
+84 transitions 979 times
+87 transitions 217 times
+88 transitions 905 times
+89 transitions 1947 times
+90 transitions 1 times
+91 transitions 37 times
+92 transitions 7865 times
+93 transitions 10 times
+94 transitions 278 times
+96 transitions 988 times
+99 transitions 3 times
+100 transitions 1688 times
+108 transitions 2185 times
+947 transitions 1735489 times
+948 transitions 22 times
+949 transitions 10 times
+951 transitions 988 times
+952 transitions 430 times
+955 transitions 6 times
+958 transitions 166 times
+959 transitions 5 times
+963 transitions 9 times
+966 transitions 1 times
+968 transitions 141 times
+969 transitions 1 times
+971 transitions 585 times
+972 transitions 16 times
+974 transitions 10 times
+975 transitions 67 times
+976 transitions 444 times
+977 transitions 1222 times
+978 transitions 50206 times
+1008 transitions 5 times
+5032 transitions 268465 times
+5063 transitions 28 times
+
+< 10: 54196026
+< 50: 96271531
+< 100: 4071280
+< 500: 3873
+< 1000: 1789818
+< 5000: 5
+>= 5000: 268493
+Collecting results and saving into files ...
+Host - Total number of matches 18187831
+host_functions.cu: t_postprocesscpu= 0.002000(ms)
+host_functions.cu: t_free= 3.635000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 41049.174000(ms), Input stream loading: 42.243000(ms), GPU mem alloc: 60.198000(ms), GPU kernel execution: 2540286.500000(ms), Result collecting: 51.554000(ms)

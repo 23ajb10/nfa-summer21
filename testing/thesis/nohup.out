@@ -1,0 +1,19 @@
+./modified-script.sh: line 3: data-collection/modified-automata-data/trimmed-groups/brill1: No such file or directory
+./modified-script.sh: line 5: data-collection/modified-automata-data/trimmed-groups/brill1: No such file or directory
+./modified-script.sh: line 9: data-collection/modified-automata-data/trimmed-groups/protomata1: No such file or directory
+./modified-script.sh: line 11: data-collection/modified-automata-data/trimmed-groups/protomata1: No such file or directory
+./modified-script.sh: line 15: data-collection/modified-automata-data/trimmed-groups/seqmatch1: No such file or directory
+./modified-script.sh: line 17: data-collection/modified-automata-data/trimmed-groups/seqmatch1: No such file or directory
+./modified-script.sh: line 23: data-collection/modified-automata-data/trimmed-groups/crispr1: No such file or directory
+./modified-script.sh: line 27: data-collection/modified-automata-data/trimmed-groups/crispr1: No such file or directory
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  map::at
+./modified-script.sh: line 5: 28036 Aborted                 (core dumped) bin/nfa_engine -a ../nfas/AutomataZoo/automata-modified/Brill -i ../nfas/AutomataZoo/inputs/brill.txt -T 1024 -g 1 -p 1 -N 5946 -O 0 >> data-collection/modified-automata-data/trimmed-groups/brill
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  map::at
+./modified-script.sh: line 11: 28202 Aborted                 (core dumped) bin/nfa_engine -a ../nfas/AutomataZoo/automata-modified/Protomata -i ../AutomataZoo/Protomata/benchmarks/inputs/30k_prots.input -T 1024 -g 1 -p 1 -N 1309 -O 0 >> data-collection/modified-automata-data/trimmed-groups/protomata
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  map::at
+./modified-script.sh: line 17: 28501 Aborted                 (core dumped) bin/nfa_engine -a ../nfas/AutomataZoo/automata-modified/SeqMatch_w6p6 -i ../nfas/AutomataZoo/inputs/seq.bin -T 1024 -g 1 -p 1 -N 1719 -O 0 >> data-collection/modified-automata-data/trimmed-groups/seqmatch
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  map::at

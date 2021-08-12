@@ -1,0 +1,1530 @@
+BRILL --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 5946
+Total input bytes: 2058315
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 2058315
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 11113297
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 2058315
+Packet 1: 2058316
+Graph (NFA) 1
+   + State count: 115550
+   + State vector length: 3611
+
+tmp_avg_count: 30874740, n_packets: 1, n_subsets: 1, Maximum matches allowed: 30874740
+1057828
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 432.000000 MB, free = 14677.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 28888
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 18187831
+host_functions.cu: t_postprocesscpu= 0.002000(ms)
+host_functions.cu: t_free= 3.650000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 37508.910000(ms), Input stream loading: 27.754000(ms), GPU mem alloc: 16.637000(ms), GPU kernel execution: 1166900.122000(ms), Result collecting: 50.966000(ms)
+-----------------User input info--------------------
+Total number of rules (subgraphs): 5946
+Total input bytes: 2058315
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 2058315
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 11113297
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 2058315
+Packet 1: 2058316
+Graph (NFA) 1
+   + State count: 115550
+   + State vector length: 3611
+
+tmp_avg_count: 30874740, n_packets: 1, n_subsets: 1, Maximum matches allowed: 30874740
+1057828
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 458.000000 MB, free = 14651.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 28888
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 18187831
+host_functions.cu: t_postprocesscpu= 0.003000(ms)
+host_functions.cu: t_free= 3.743000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 37840.902000(ms), Input stream loading: 28.631000(ms), GPU mem alloc: 16.910000(ms), GPU kernel execution: 2774025.087000(ms), Result collecting: 51.805000(ms)
+==PROF== Connected to process 454 (/home/ubuntu/thesis/testing/thesis/bin/nfa_engine)
+==PROF== Disconnected from process 454
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","454","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 15:24:18","1","7","Command line profiler metrics","dram__bytes_read.sum","byte","24950577920"
+"0","454","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 15:24:18","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","23006986654"
+"0","454","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 15:24:18","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld_lookup_hit.sum","sector","0"
+"0","454","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 15:24:18","1","7","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","3.12"
+PROTOMATA --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 1309
+Total input bytes: 11758010
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 11758010
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 3050161
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 11758010
+Packet 1: 11758012
+Graph (NFA) 1
+   + State count: 24104
+   + State vector length: 754
+
+tmp_avg_count: 176370180, n_packets: 1, n_subsets: 1, Maximum matches allowed: 176370180
+79472
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 1488.000000 MB, free = 13621.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 6032
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 867853
+host_functions.cu: t_postprocesscpu= 0.004000(ms)
+host_functions.cu: t_free= 40.729000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 8817.476000(ms), Input stream loading: 160.349000(ms), GPU mem alloc: 9.432000(ms), GPU kernel execution: 906284.022000(ms), Result collecting: 1025.423000(ms)
+-----------------User input info--------------------
+Total number of rules (subgraphs): 1309
+Total input bytes: 11758010
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 11758010
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 3050161
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 11758010
+Packet 1: 11758012
+Graph (NFA) 1
+   + State count: 24104
+   + State vector length: 754
+
+tmp_avg_count: 176370180, n_packets: 1, n_subsets: 1, Maximum matches allowed: 176370180
+79472
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 1514.000000 MB, free = 13595.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 6032
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 867853
+host_functions.cu: t_postprocesscpu= 0.003000(ms)
+host_functions.cu: t_free= 41.599000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 9052.540000(ms), Input stream loading: 159.432000(ms), GPU mem alloc: 9.606000(ms), GPU kernel execution: 8643976.797000(ms), Result collecting: 1024.363000(ms)
+==PROF== Connected to process 2744 (/home/ubuntu/thesis/testing/thesis/bin/nfa_engine)
+==PROF== Disconnected from process 2744
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","2744","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:03:48","1","7","Command line profiler metrics","dram__bytes_read.sum","byte","468595872"
+"0","2744","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:03:48","1","7","Command line profiler metrics","dram__sectors_read.sum","sector","14643621"
+"0","2744","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:03:48","1","7","Command line profiler metrics","l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum","request","14024389808"
+"0","2744","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:03:48","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","46859101650"
+"0","2744","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:03:48","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld_lookup_hit.sum","sector","0"
+"0","2744","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:03:48","1","7","Command line profiler metrics","lts__t_sector_hit_rate.pct","%","99.98"
+"0","2744","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:03:48","1","7","Command line profiler metrics","lts__t_sectors_op_atom.sum","sector","0"
+"0","2744","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:03:48","1","7","Command line profiler metrics","lts__t_sectors_op_read.sum","sector","47081453900"
+"0","2744","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:03:48","1","7","Command line profiler metrics","lts__t_sectors_op_red.sum","sector","0"
+"0","2744","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:03:48","1","7","Command line profiler metrics","lts__t_sectors_srcunit_tex_op_read.sum","sector","46859101650"
+"0","2744","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:03:48","1","7","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","3.13"
+"0","2744","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:03:48","1","7","Command line profiler metrics","smsp__inst_executed.sum","inst","204859963418"
+"0","2744","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:03:48","1","7","Command line profiler metrics","smsp__inst_executed_op_global_ld.sum","inst","14024389872"
+"0","2744","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:03:48","1","7","Command line profiler metrics","smsp__inst_executed_op_local_ld.sum","inst","0"
+"0","2744","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:03:48","1","7","Command line profiler metrics","smsp__inst_executed_op_shared_ld.sum","inst","8941098657"
+SEQMATCH --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 1719
+Total input bytes: 1072482
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 1072482
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 12717418
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 1072482
+Packet 1: 1072484
+Graph (NFA) 1
+   + State count: 51571
+   + State vector length: 1612
+
+tmp_avg_count: 16087260, n_packets: 1, n_subsets: 1, Maximum matches allowed: 16087260
+135856
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 330.000000 MB, free = 14779.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 12896
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 1402433
+host_functions.cu: t_postprocesscpu= 0.003000(ms)
+host_functions.cu: t_free= 3.720000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 37344.403000(ms), Input stream loading: 14.693000(ms), GPU mem alloc: 17.955000(ms), GPU kernel execution: 49464.323000(ms), Result collecting: 24.768000(ms)
+-----------------User input info--------------------
+Total number of rules (subgraphs): 1719
+Total input bytes: 1072482
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 1072482
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 12717418
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 1072482
+Packet 1: 1072484
+Graph (NFA) 1
+   + State count: 51571
+   + State vector length: 1612
+
+tmp_avg_count: 16087260, n_packets: 1, n_subsets: 1, Maximum matches allowed: 16087260
+135856
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 356.000000 MB, free = 14753.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 12896
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 1402433
+host_functions.cu: t_postprocesscpu= 0.003000(ms)
+host_functions.cu: t_free= 3.753000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 37431.221000(ms), Input stream loading: 14.636000(ms), GPU mem alloc: 18.231000(ms), GPU kernel execution: 118966.722000(ms), Result collecting: 26.646000(ms)
+==PROF== Connected to process 3050 (/home/ubuntu/thesis/testing/thesis/bin/nfa_engine)
+==PROF== Disconnected from process 3050
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","3050","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:07:53","1","7","Command line profiler metrics","dram__bytes_read.sum","byte","54712513344"
+"0","3050","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:07:53","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","23968607763"
+"0","3050","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:07:53","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld_lookup_hit.sum","sector","0"
+"0","3050","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 18:07:53","1","7","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","49.41"
+CRISPR --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 2000
+Total input bytes: 10000000
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 10000000
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 6244256
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 10000000
+Packet 1: 10000000
+Graph (NFA) 1
+   + State count: 74001
+   + State vector length: 2313
+
+tmp_avg_count: 150000000, n_packets: 1, n_subsets: 1, Maximum matches allowed: 150000000
+57012
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 1336.000000 MB, free = 13773.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 18504
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 620
+host_functions.cu: t_postprocesscpu= 0.004000(ms)
+host_functions.cu: t_free= 37.863000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 26527.961000(ms), Input stream loading: 136.757000(ms), GPU mem alloc: 13.196000(ms), GPU kernel execution: 18213118.043000(ms), Result collecting: 874.338000(ms)
+==PROF== Connected to process 3084 (/home/ubuntu/thesis/testing/thesis/bin/nfa_engine)
+==PROF== Disconnected from process 3084
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","3084","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 23:11:53","1","7","Command line profiler metrics","dram__bytes_read.sum","byte","3158570336"
+"0","3084","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 23:11:53","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum","sector","158552914317"
+"0","3084","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 23:11:53","1","7","Command line profiler metrics","l1tex__t_sectors_pipe_lsu_mem_global_op_ld_lookup_hit.sum","sector","0"
+"0","3084","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*, int*, unsigned int*, unsigned int*, unsigned short*)","2021-Jul-21 23:11:53","1","7","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","3.12"
+-----------------User input info--------------------
+Total number of rules (subgraphs): 2000
+Total input bytes: 10000000
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 10000000
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 6244256
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 10000000
+Packet 1: 10000000
+Graph (NFA) 1
+   + State count: 74001
+   + State vector length: 2313
+
+tmp_avg_count: 150000000, n_packets: 1, n_subsets: 1, Maximum matches allowed: 150000000
+57012
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 1310.000000 MB, free = 13799.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 18504
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 620
+host_functions.cu: t_postprocesscpu= 0.004000(ms)
+host_functions.cu: t_free= 35.680000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 26420.366000(ms), Input stream loading: 136.861000(ms), GPU mem alloc: 12.920000(ms), GPU kernel execution: 7611029.064000(ms), Result collecting: 873.457000(ms)
+-----------------User input info--------------------
+Total number of rules (subgraphs): 2000
+Total input bytes: 10000000
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 10000000
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 6244256
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 10000000
+Packet 1: 10000000
+Graph (NFA) 1
+   + State count: 74001
+   + State vector length: 2313
+
+tmp_avg_count: 150000000, n_packets: 1, n_subsets: 1, Maximum matches allowed: 150000000
+57012
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 1310.000000 MB, free = 13799.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 18504
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+
+transitions per thread
+10431587 transitions 1 times
+10452225 transitions 1 times
+10452639 transitions 1 times
+10452991 transitions 1 times
+10453491 transitions 1 times
+10454145 transitions 1 times
+10454243 transitions 1 times
+10454634 transitions 1 times
+10455193 transitions 1 times
+10459137 transitions 1 times
+10459609 transitions 1 times
+10459628 transitions 1 times
+10459655 transitions 1 times
+10459664 transitions 1 times
+10459711 transitions 1 times
+10459767 transitions 1 times
+10459898 transitions 1 times
+10460665 transitions 1 times
+10462845 transitions 1 times
+10463140 transitions 1 times
+10463627 transitions 1 times
+10463970 transitions 1 times
+10464015 transitions 1 times
+10464079 transitions 1 times
+10464101 transitions 1 times
+10464192 transitions 1 times
+10464440 transitions 1 times
+10464502 transitions 1 times
+10464510 transitions 1 times
+10464518 transitions 1 times
+10464613 transitions 1 times
+10464722 transitions 1 times
+10464733 transitions 1 times
+10464743 transitions 1 times
+10464978 transitions 1 times
+10465415 transitions 1 times
+10465626 transitions 1 times
+10466336 transitions 1 times
+10467501 transitions 1 times
+10467659 transitions 1 times
+10468835 transitions 1 times
+10468886 transitions 1 times
+10468926 transitions 1 times
+10469009 transitions 1 times
+10469593 transitions 1 times
+10469844 transitions 1 times
+10469887 transitions 1 times
+10470308 transitions 1 times
+10471044 transitions 1 times
+10472402 transitions 1 times
+10473235 transitions 1 times
+10473276 transitions 1 times
+10473878 transitions 1 times
+10473989 transitions 1 times
+10474113 transitions 1 times
+10474331 transitions 1 times
+10474371 transitions 1 times
+10474602 transitions 1 times
+10474609 transitions 1 times
+10474902 transitions 1 times
+10475510 transitions 1 times
+10478732 transitions 1 times
+10482332 transitions 1 times
+10482764 transitions 1 times
+10483543 transitions 1 times
+10483907 transitions 1 times
+10484365 transitions 1 times
+10484470 transitions 1 times
+10484612 transitions 1 times
+10485740 transitions 1 times
+10487071 transitions 1 times
+10487742 transitions 1 times
+10488072 transitions 1 times
+10488339 transitions 1 times
+10488495 transitions 1 times
+10488720 transitions 1 times
+10489071 transitions 1 times
+10489342 transitions 1 times
+10489475 transitions 1 times
+10489771 transitions 1 times
+10490120 transitions 1 times
+10490159 transitions 1 times
+10491402 transitions 1 times
+10492523 transitions 1 times
+10492610 transitions 1 times
+10492856 transitions 1 times
+10493040 transitions 1 times
+10493262 transitions 1 times
+10493591 transitions 1 times
+10493638 transitions 1 times
+10493644 transitions 1 times
+10493826 transitions 1 times
+10494068 transitions 1 times
+10494171 transitions 1 times
+10494636 transitions 1 times
+10494897 transitions 1 times
+10495027 transitions 1 times
+10495713 transitions 1 times
+10497128 transitions 1 times
+10497438 transitions 1 times
+10497467 transitions 1 times
+10497662 transitions 1 times
+10497684 transitions 1 times
+10497711 transitions 1 times
+10498258 transitions 1 times
+10498269 transitions 1 times
+10498457 transitions 1 times
+10498781 transitions 1 times
+10498842 transitions 1 times
+10498982 transitions 1 times
+10499037 transitions 1 times
+10499244 transitions 1 times
+10499280 transitions 1 times
+10499473 transitions 1 times
+10499736 transitions 1 times
+10500405 transitions 1 times
+10500488 transitions 1 times
+10502894 transitions 1 times
+10502938 transitions 1 times
+10503071 transitions 1 times
+10503093 transitions 1 times
+10503126 transitions 1 times
+10503158 transitions 1 times
+10503243 transitions 1 times
+10503374 transitions 1 times
+10503589 transitions 1 times
+10503684 transitions 1 times
+10503706 transitions 1 times
+10503712 transitions 1 times
+10503740 transitions 1 times
+10503743 transitions 1 times
+10503817 transitions 1 times
+10503851 transitions 1 times
+10504266 transitions 1 times
+10504707 transitions 1 times
+10507002 transitions 1 times
+10507615 transitions 1 times
+10507846 transitions 1 times
+10508660 transitions 1 times
+10515823 transitions 1 times
+10516180 transitions 1 times
+10519799 transitions 1 times
+10522633 transitions 1 times
+10522842 transitions 1 times
+10522922 transitions 1 times
+10522965 transitions 1 times
+10531129 transitions 1 times
+10532337 transitions 1 times
+10538016 transitions 1 times
+11321266 transitions 1 times
+11358324 transitions 1 times
+11389840 transitions 1 times
+11410470 transitions 1 times
+11416858 transitions 1 times
+11417472 transitions 1 times
+11418345 transitions 1 times
+11425194 transitions 1 times
+11427627 transitions 1 times
+11428233 transitions 1 times
+11429151 transitions 1 times
+11429874 transitions 1 times
+11435401 transitions 1 times
+11436335 transitions 1 times
+11438696 transitions 1 times
+11446664 transitions 1 times
+11457399 transitions 1 times
+11458244 transitions 1 times
+11458803 transitions 1 times
+11466133 transitions 1 times
+11467751 transitions 1 times
+11467756 transitions 1 times
+11467980 transitions 1 times
+11468409 transitions 1 times
+11469437 transitions 1 times
+11474338 transitions 1 times
+11475184 transitions 1 times
+11475363 transitions 1 times
+11476814 transitions 1 times
+11477458 transitions 1 times
+11477702 transitions 1 times
+11478203 transitions 1 times
+11478293 transitions 1 times
+11484634 transitions 1 times
+11485411 transitions 1 times
+11485968 transitions 1 times
+11486228 transitions 1 times
+11486267 transitions 1 times
+11486973 transitions 1 times
+11487144 transitions 1 times
+11495015 transitions 1 times
+11495465 transitions 1 times
+11496474 transitions 1 times
+11498160 transitions 1 times
+11504145 transitions 1 times
+11504650 transitions 1 times
+11504724 transitions 1 times
+11505970 transitions 1 times
+11505984 transitions 1 times
+11506064 transitions 1 times
+11506238 transitions 1 times
+11507138 transitions 1 times
+11507177 transitions 1 times
+11514430 transitions 1 times
+11514488 transitions 1 times
+11515418 transitions 1 times
+11516246 transitions 1 times
+11516719 transitions 1 times
+11523298 transitions 1 times
+11523353 transitions 1 times
+11523565 transitions 1 times
+11524240 transitions 1 times
+11524869 transitions 1 times
+11525377 transitions 1 times
+11525496 transitions 1 times
+11525950 transitions 1 times
+11525970 transitions 1 times
+11526255 transitions 1 times
+11526863 transitions 1 times
+11533637 transitions 1 times
+11533737 transitions 1 times
+11533812 transitions 1 times
+11534675 transitions 1 times
+11534861 transitions 1 times
+11535134 transitions 1 times
+11535566 transitions 1 times
+11535653 transitions 1 times
+11535755 transitions 1 times
+11535832 transitions 1 times
+11536103 transitions 1 times
+11536222 transitions 1 times
+11536253 transitions 1 times
+11536828 transitions 1 times
+11542799 transitions 1 times
+11543612 transitions 1 times
+11543720 transitions 1 times
+11543781 transitions 1 times
+11543908 transitions 1 times
+11544259 transitions 1 times
+11546053 transitions 1 times
+11546576 transitions 1 times
+11547158 transitions 1 times
+11553162 transitions 1 times
+11553544 transitions 1 times
+11553598 transitions 1 times
+11553685 transitions 1 times
+11554478 transitions 1 times
+11555840 transitions 1 times
+11556390 transitions 1 times
+11562616 transitions 1 times
+11563036 transitions 1 times
+11563679 transitions 1 times
+11563987 transitions 1 times
+11564180 transitions 1 times
+11566275 transitions 1 times
+11566449 transitions 1 times
+11571561 transitions 1 times
+11572465 transitions 1 times
+11572499 transitions 1 times
+11573111 transitions 1 times
+11573748 transitions 1 times
+11574054 transitions 1 times
+11574790 transitions 1 times
+11575716 transitions 1 times
+11575752 transitions 1 times
+11576903 transitions 1 times
+11581513 transitions 1 times
+11581628 transitions 1 times
+11581979 transitions 1 times
+11582253 transitions 1 times
+11583607 transitions 1 times
+11584133 transitions 1 times
+11584237 transitions 1 times
+11584343 transitions 1 times
+11584469 transitions 1 times
+11585231 transitions 1 times
+11585668 transitions 1 times
+11586125 transitions 1 times
+11586202 transitions 1 times
+11586218 transitions 1 times
+11591885 transitions 1 times
+11592322 transitions 1 times
+11592555 transitions 1 times
+11592652 transitions 1 times
+11593621 transitions 1 times
+11593627 transitions 1 times
+11594046 transitions 1 times
+11594682 transitions 1 times
+11594948 transitions 1 times
+11601713 transitions 1 times
+11602127 transitions 1 times
+11602136 transitions 1 times
+11602186 transitions 1 times
+11602670 transitions 1 times
+11604495 transitions 1 times
+11604969 transitions 1 times
+11605599 transitions 1 times
+11610981 transitions 1 times
+11612297 transitions 1 times
+11613234 transitions 1 times
+11613342 transitions 1 times
+11613969 transitions 1 times
+11613978 transitions 1 times
+11614281 transitions 1 times
+11614529 transitions 1 times
+11614544 transitions 1 times
+11614750 transitions 1 times
+11615917 transitions 1 times
+11621038 transitions 1 times
+11621478 transitions 1 times
+11622638 transitions 1 times
+11623078 transitions 1 times
+11623657 transitions 1 times
+11629988 transitions 1 times
+11630546 transitions 1 times
+11630563 transitions 1 times
+11632080 transitions 1 times
+11632212 transitions 1 times
+11632421 transitions 1 times
+11633400 transitions 1 times
+11633776 transitions 1 times
+11633909 transitions 1 times
+11634195 transitions 1 times
+11634871 transitions 1 times
+11635900 transitions 1 times
+11641499 transitions 1 times
+11641898 transitions 1 times
+11644235 transitions 1 times
+11652407 transitions 1 times
+11653375 transitions 1 times
+11654990 transitions 1 times
+11660073 transitions 1 times
+11664260 transitions 1 times
+11673766 transitions 1 times
+11690053 transitions 1 times
+11703188 transitions 1 times
+11708040 transitions 1 times
+13001081 transitions 1 times
+13322544 transitions 1 times
+13479256 transitions 1 times
+13564858 transitions 1 times
+13595139 transitions 1 times
+13605165 transitions 1 times
+13636782 transitions 1 times
+13754781 transitions 1 times
+13755398 transitions 1 times
+13799706 transitions 1 times
+13802781 transitions 1 times
+13831399 transitions 1 times
+13840235 transitions 1 times
+13869309 transitions 1 times
+13870763 transitions 1 times
+13911004 transitions 1 times
+13917421 transitions 1 times
+13919572 transitions 1 times
+13948248 transitions 1 times
+13948590 transitions 1 times
+13949822 transitions 1 times
+13957066 transitions 1 times
+13987717 transitions 1 times
+13987870 transitions 1 times
+13988144 transitions 1 times
+13988922 transitions 1 times
+13990562 transitions 1 times
+13995200 transitions 1 times
+13997063 transitions 1 times
+14025717 transitions 1 times
+14029623 transitions 1 times
+14033821 transitions 1 times
+14034002 transitions 1 times
+14034890 transitions 1 times
+14034899 transitions 1 times
+14035399 transitions 1 times
+14036163 transitions 1 times
+14064813 transitions 1 times
+14065949 transitions 1 times
+14066324 transitions 1 times
+14073345 transitions 1 times
+14103936 transitions 1 times
+14105228 transitions 1 times
+14105318 transitions 1 times
+14110956 transitions 1 times
+14111546 transitions 1 times
+14114290 transitions 1 times
+14143716 transitions 1 times
+14144625 transitions 1 times
+14149094 transitions 1 times
+14151721 transitions 1 times
+14151808 transitions 1 times
+14152520 transitions 1 times
+14154136 transitions 1 times
+14155219 transitions 1 times
+14182618 transitions 1 times
+14182626 transitions 1 times
+14184522 transitions 1 times
+14187237 transitions 1 times
+14189312 transitions 1 times
+14219961 transitions 1 times
+14220218 transitions 1 times
+14222336 transitions 1 times
+14223146 transitions 1 times
+14228520 transitions 1 times
+14229433 transitions 1 times
+14229706 transitions 1 times
+14230439 transitions 1 times
+14230513 transitions 1 times
+14230802 transitions 1 times
+14231280 transitions 1 times
+14231400 transitions 1 times
+14231572 transitions 1 times
+14258618 transitions 1 times
+14260414 transitions 1 times
+14260846 transitions 1 times
+14261911 transitions 1 times
+14266559 transitions 1 times
+14268332 transitions 1 times
+14268679 transitions 1 times
+14269087 transitions 1 times
+14269634 transitions 1 times
+14269900 transitions 1 times
+14270074 transitions 1 times
+14270492 transitions 1 times
+14270792 transitions 1 times
+14298055 transitions 1 times
+14299320 transitions 1 times
+14299404 transitions 1 times
+14300084 transitions 1 times
+14300349 transitions 1 times
+14300843 transitions 1 times
+14307672 transitions 1 times
+14308383 transitions 1 times
+14310529 transitions 1 times
+14335857 transitions 1 times
+14337109 transitions 1 times
+14338130 transitions 1 times
+14338613 transitions 1 times
+14338844 transitions 1 times
+14345818 transitions 1 times
+14346365 transitions 1 times
+14347099 transitions 1 times
+14376815 transitions 1 times
+14377083 transitions 1 times
+14377570 transitions 1 times
+14377760 transitions 1 times
+14378157 transitions 1 times
+14378976 transitions 1 times
+14379911 transitions 1 times
+14384657 transitions 1 times
+14385338 transitions 1 times
+14386954 transitions 1 times
+14387829 transitions 1 times
+14388957 transitions 1 times
+14415961 transitions 1 times
+14416137 transitions 1 times
+14416788 transitions 1 times
+14417938 transitions 1 times
+14417940 transitions 1 times
+14420313 transitions 1 times
+14423185 transitions 1 times
+14424153 transitions 1 times
+14424191 transitions 1 times
+14424503 transitions 1 times
+14424749 transitions 1 times
+14424976 transitions 1 times
+14425145 transitions 1 times
+14425188 transitions 1 times
+14425540 transitions 1 times
+14426204 transitions 1 times
+14429007 transitions 1 times
+14455673 transitions 1 times
+14458051 transitions 1 times
+14462460 transitions 1 times
+14462627 transitions 1 times
+14462655 transitions 1 times
+14464195 transitions 1 times
+14464350 transitions 1 times
+14464811 transitions 1 times
+14466149 transitions 1 times
+14467585 transitions 1 times
+14494161 transitions 1 times
+14494605 transitions 1 times
+14495428 transitions 1 times
+14496820 transitions 1 times
+14501227 transitions 1 times
+14503462 transitions 1 times
+14504954 transitions 1 times
+14531767 transitions 1 times
+14533268 transitions 1 times
+14534611 transitions 1 times
+14535313 transitions 1 times
+14538921 transitions 1 times
+14541088 transitions 1 times
+14541300 transitions 1 times
+14541670 transitions 1 times
+14542431 transitions 1 times
+14542630 transitions 1 times
+14543663 transitions 1 times
+14544671 transitions 1 times
+14545408 transitions 1 times
+14572020 transitions 1 times
+14572473 transitions 1 times
+14610625 transitions 1 times
+14613106 transitions 1 times
+14614910 transitions 1 times
+14620014 transitions 1 times
+14620393 transitions 1 times
+14658602 transitions 1 times
+14659060 transitions 1 times
+14689308 transitions 1 times
+14691345 transitions 1 times
+14692327 transitions 1 times
+14697977 transitions 1 times
+14698569 transitions 1 times
+14700509 transitions 1 times
+14728675 transitions 1 times
+14729186 transitions 1 times
+14730709 transitions 1 times
+14735144 transitions 1 times
+14777706 transitions 1 times
+14844989 transitions 1 times
+14845434 transitions 1 times
+14854846 transitions 1 times
+14856900 transitions 1 times
+14933670 transitions 1 times
+14934932 transitions 1 times
+16885379 transitions 1 times
+17196747 transitions 1 times
+17357448 transitions 1 times
+17382463 transitions 1 times
+17511886 transitions 1 times
+17512452 transitions 1 times
+17538794 transitions 1 times
+17538896 transitions 1 times
+17539663 transitions 1 times
+17540830 transitions 1 times
+17542275 transitions 1 times
+17665737 transitions 1 times
+17695102 transitions 1 times
+17695996 transitions 1 times
+17696798 transitions 1 times
+17697257 transitions 1 times
+17698115 transitions 1 times
+17699311 transitions 1 times
+17821060 transitions 1 times
+17822090 transitions 1 times
+17823173 transitions 1 times
+17823445 transitions 1 times
+17824060 transitions 1 times
+17825374 transitions 1 times
+17825766 transitions 1 times
+17850294 transitions 1 times
+17850571 transitions 1 times
+17853499 transitions 1 times
+17853532 transitions 1 times
+17853550 transitions 1 times
+17855221 transitions 1 times
+17979001 transitions 1 times
+17979364 transitions 1 times
+17979807 transitions 1 times
+17980064 transitions 1 times
+17980393 transitions 1 times
+17982318 transitions 1 times
+18009204 transitions 1 times
+18009335 transitions 1 times
+18010187 transitions 1 times
+18010684 transitions 1 times
+18011494 transitions 1 times
+18011752 transitions 1 times
+18136077 transitions 1 times
+18136265 transitions 1 times
+18136722 transitions 1 times
+18136824 transitions 1 times
+18137353 transitions 1 times
+18137649 transitions 1 times
+18137856 transitions 1 times
+18163086 transitions 1 times
+18163310 transitions 1 times
+18166809 transitions 1 times
+18166871 transitions 1 times
+18167853 transitions 1 times
+18290622 transitions 1 times
+18291241 transitions 1 times
+18291859 transitions 1 times
+18292617 transitions 1 times
+18292852 transitions 1 times
+18293295 transitions 1 times
+18293296 transitions 1 times
+18293432 transitions 1 times
+18293746 transitions 1 times
+18293755 transitions 1 times
+18293765 transitions 1 times
+18293923 transitions 1 times
+18294239 transitions 1 times
+18295626 transitions 1 times
+18305455 transitions 1 times
+18318942 transitions 1 times
+18319208 transitions 1 times
+18322519 transitions 1 times
+18323030 transitions 1 times
+18323032 transitions 1 times
+18323798 transitions 1 times
+18323847 transitions 1 times
+18447066 transitions 1 times
+18447559 transitions 1 times
+18448209 transitions 1 times
+18448720 transitions 1 times
+18449162 transitions 1 times
+18449183 transitions 1 times
+18449413 transitions 1 times
+18449757 transitions 1 times
+18450065 transitions 1 times
+18450473 transitions 1 times
+18451004 transitions 1 times
+18474650 transitions 1 times
+18475561 transitions 1 times
+18475953 transitions 1 times
+18476480 transitions 1 times
+18476560 transitions 1 times
+18476599 transitions 1 times
+18477126 transitions 1 times
+18477219 transitions 1 times
+18478475 transitions 1 times
+18478494 transitions 1 times
+18478758 transitions 1 times
+18478957 transitions 1 times
+18479984 transitions 1 times
+18480337 transitions 1 times
+18603544 transitions 1 times
+18604209 transitions 1 times
+18604529 transitions 1 times
+18605155 transitions 1 times
+18605536 transitions 1 times
+18605983 transitions 1 times
+18606033 transitions 1 times
+18631769 transitions 1 times
+18631936 transitions 1 times
+18632090 transitions 1 times
+18632238 transitions 1 times
+18632356 transitions 1 times
+18633134 transitions 1 times
+18633282 transitions 1 times
+18633490 transitions 1 times
+18634491 transitions 1 times
+18634521 transitions 1 times
+18634817 transitions 1 times
+18634999 transitions 1 times
+18635645 transitions 1 times
+18635707 transitions 1 times
+18635993 transitions 1 times
+18636056 transitions 1 times
+18636331 transitions 1 times
+18759986 transitions 1 times
+18760199 transitions 1 times
+18760379 transitions 1 times
+18760527 transitions 1 times
+18760730 transitions 1 times
+18760748 transitions 1 times
+18760771 transitions 1 times
+18760823 transitions 1 times
+18761192 transitions 1 times
+18761711 transitions 1 times
+18763374 transitions 1 times
+18787832 transitions 1 times
+18788154 transitions 1 times
+18788326 transitions 1 times
+18788553 transitions 1 times
+18789573 transitions 1 times
+18789627 transitions 1 times
+18790519 transitions 1 times
+18790811 transitions 1 times
+18790999 transitions 1 times
+18791155 transitions 1 times
+18791469 transitions 1 times
+18791906 transitions 1 times
+18792137 transitions 1 times
+18792601 transitions 1 times
+18794565 transitions 1 times
+18915193 transitions 1 times
+18915696 transitions 1 times
+18916332 transitions 1 times
+18917351 transitions 1 times
+18917373 transitions 1 times
+18917740 transitions 1 times
+18917775 transitions 1 times
+18918308 transitions 1 times
+18918759 transitions 1 times
+18944441 transitions 1 times
+18944829 transitions 1 times
+18944985 transitions 1 times
+18946292 transitions 1 times
+18947006 transitions 1 times
+18947443 transitions 1 times
+18948859 transitions 1 times
+18949088 transitions 1 times
+18949212 transitions 1 times
+18950060 transitions 1 times
+18950254 transitions 1 times
+19073251 transitions 1 times
+19073607 transitions 1 times
+19073648 transitions 1 times
+19074064 transitions 1 times
+19074141 transitions 1 times
+19100301 transitions 1 times
+19101982 transitions 1 times
+19104282 transitions 1 times
+19104940 transitions 1 times
+19105073 transitions 1 times
+19229689 transitions 1 times
+19260109 transitions 1 times
+19385804 transitions 1 times
+19386624 transitions 1 times
+19412609 transitions 1 times
+19414811 transitions 1 times
+19416748 transitions 1 times
+19416918 transitions 1 times
+19417670 transitions 1 times
+19511043 transitions 1 times
+19521213 transitions 1 times
+20037839 transitions 1 times
+20038279 transitions 1 times
+20038424 transitions 2 times
+20038486 transitions 1 times
+20038547 transitions 1 times
+20038604 transitions 1 times
+20038635 transitions 1 times
+20038638 transitions 1 times
+20038659 transitions 1 times
+20038680 transitions 1 times
+20038709 transitions 2 times
+20038722 transitions 1 times
+20038739 transitions 1 times
+20038779 transitions 1 times
+20038780 transitions 1 times
+20038781 transitions 1 times
+20038788 transitions 1 times
+20038792 transitions 1 times
+20038795 transitions 1 times
+20038809 transitions 1 times
+20038830 transitions 1 times
+20038839 transitions 1 times
+20038867 transitions 1 times
+20038876 transitions 1 times
+20038879 transitions 1 times
+20038894 transitions 1 times
+20038949 transitions 1 times
+20038982 transitions 1 times
+20038989 transitions 1 times
+20039137 transitions 1 times
+20039191 transitions 1 times
+20040874 transitions 1 times
+20040920 transitions 1 times
+20040962 transitions 1 times
+20041147 transitions 1 times
+20041207 transitions 1 times
+20041211 transitions 1 times
+20041223 transitions 1 times
+20041315 transitions 1 times
+20041351 transitions 1 times
+20041352 transitions 1 times
+20041357 transitions 1 times
+20041366 transitions 1 times
+20041373 transitions 1 times
+20041402 transitions 1 times
+20041413 transitions 1 times
+20041463 transitions 1 times
+20041518 transitions 1 times
+20041530 transitions 1 times
+20041533 transitions 1 times
+20041568 transitions 1 times
+20041577 transitions 1 times
+20041591 transitions 1 times
+20041632 transitions 1 times
+20041635 transitions 1 times
+20041661 transitions 1 times
+20041685 transitions 1 times
+20041706 transitions 1 times
+20041719 transitions 1 times
+20041721 transitions 1 times
+20041731 transitions 1 times
+20041735 transitions 1 times
+20041779 transitions 1 times
+20041807 transitions 1 times
+20041821 transitions 1 times
+20041825 transitions 1 times
+20041900 transitions 1 times
+20041929 transitions 1 times
+20041930 transitions 1 times
+20041935 transitions 1 times
+20041996 transitions 1 times
+20042020 transitions 1 times
+20042061 transitions 1 times
+20042094 transitions 1 times
+20043098 transitions 1 times
+20044082 transitions 1 times
+20044220 transitions 1 times
+20044431 transitions 1 times
+20044453 transitions 1 times
+20044784 transitions 1 times
+20044977 transitions 1 times
+20131596 transitions 1 times
+20132991 transitions 1 times
+20133152 transitions 1 times
+20133521 transitions 1 times
+20133709 transitions 1 times
+20133961 transitions 1 times
+20134101 transitions 1 times
+20134136 transitions 1 times
+20134168 transitions 1 times
+20134753 transitions 1 times
+20134817 transitions 1 times
+20134932 transitions 1 times
+20134961 transitions 1 times
+20135072 transitions 1 times
+20135095 transitions 1 times
+20135259 transitions 1 times
+20135282 transitions 1 times
+20135287 transitions 1 times
+20135332 transitions 1 times
+20135351 transitions 1 times
+20135476 transitions 1 times
+20135492 transitions 1 times
+20135495 transitions 1 times
+20135508 transitions 1 times
+20135537 transitions 1 times
+20135557 transitions 1 times
+20135603 transitions 1 times
+20135637 transitions 1 times
+20135702 transitions 1 times
+20135770 transitions 1 times
+20135786 transitions 1 times
+20135799 transitions 1 times
+20136078 transitions 1 times
+20136093 transitions 1 times
+20136141 transitions 1 times
+20136143 transitions 1 times
+20136153 transitions 1 times
+20136190 transitions 1 times
+20136195 transitions 1 times
+20136211 transitions 1 times
+20136217 transitions 1 times
+20136236 transitions 1 times
+20136276 transitions 1 times
+20136288 transitions 1 times
+20136338 transitions 1 times
+20136379 transitions 1 times
+20136441 transitions 1 times
+20136454 transitions 1 times
+20136492 transitions 1 times
+20136495 transitions 1 times
+20136562 transitions 1 times
+20136578 transitions 1 times
+20136619 transitions 1 times
+20136661 transitions 1 times
+20136668 transitions 1 times
+20136690 transitions 1 times
+20136707 transitions 1 times
+20136731 transitions 1 times
+20136763 transitions 1 times
+20136916 transitions 1 times
+20136951 transitions 1 times
+20136967 transitions 1 times
+20137105 transitions 1 times
+20137402 transitions 1 times
+20137444 transitions 1 times
+20137489 transitions 1 times
+20137545 transitions 1 times
+20137591 transitions 1 times
+20137642 transitions 1 times
+20142899 transitions 1 times
+20143054 transitions 1 times
+20143089 transitions 1 times
+20143164 transitions 1 times
+20143416 transitions 1 times
+20143418 transitions 1 times
+20143557 transitions 1 times
+20143580 transitions 1 times
+20143640 transitions 1 times
+20143643 transitions 1 times
+20143665 transitions 1 times
+20143715 transitions 1 times
+20143740 transitions 1 times
+20143842 transitions 1 times
+20143844 transitions 1 times
+20143875 transitions 1 times
+20143904 transitions 1 times
+20144044 transitions 1 times
+20144052 transitions 1 times
+20144125 transitions 1 times
+20144214 transitions 1 times
+20144272 transitions 1 times
+20144320 transitions 1 times
+20144466 transitions 1 times
+20144545 transitions 1 times
+20144619 transitions 1 times
+20144628 transitions 1 times
+20144658 transitions 1 times
+20144702 transitions 1 times
+20144720 transitions 1 times
+20144752 transitions 1 times
+20144760 transitions 1 times
+20144812 transitions 1 times
+20144943 transitions 1 times
+20144955 transitions 1 times
+20145013 transitions 1 times
+20145024 transitions 1 times
+20145034 transitions 1 times
+20145044 transitions 1 times
+20145079 transitions 1 times
+20145130 transitions 1 times
+20145190 transitions 1 times
+20145209 transitions 1 times
+20145231 transitions 1 times
+20145266 transitions 1 times
+20145293 transitions 1 times
+20145310 transitions 1 times
+20145355 transitions 1 times
+20145358 transitions 1 times
+20145362 transitions 1 times
+20145446 transitions 1 times
+20145485 transitions 1 times
+20145578 transitions 1 times
+20145581 transitions 1 times
+20145597 transitions 1 times
+20145606 transitions 1 times
+20145616 transitions 1 times
+20145628 transitions 1 times
+20145633 transitions 1 times
+20145635 transitions 1 times
+20145641 transitions 1 times
+20145646 transitions 1 times
+20145712 transitions 1 times
+20145719 transitions 1 times
+20145790 transitions 1 times
+20145792 transitions 1 times
+20145839 transitions 1 times
+20145922 transitions 1 times
+20145980 transitions 1 times
+20145982 transitions 1 times
+20146015 transitions 1 times
+20146073 transitions 1 times
+20146102 transitions 1 times
+20146140 transitions 1 times
+20146178 transitions 1 times
+20146180 transitions 1 times
+20146190 transitions 1 times
+20146205 transitions 1 times
+20146242 transitions 1 times
+20146271 transitions 1 times
+20146281 transitions 1 times
+20146341 transitions 1 times
+20146381 transitions 1 times
+20146486 transitions 1 times
+20146488 transitions 1 times
+20146572 transitions 1 times
+20146599 transitions 1 times
+20146722 transitions 1 times
+20146766 transitions 1 times
+20146846 transitions 1 times
+20146968 transitions 1 times
+20146988 transitions 1 times
+20147030 transitions 1 times
+20147132 transitions 1 times
+20147158 transitions 1 times
+20147209 transitions 1 times
+20147242 transitions 1 times
+20147280 transitions 1 times
+20147285 transitions 1 times
+20147431 transitions 1 times
+20147446 transitions 1 times
+20147448 transitions 1 times
+20147470 transitions 1 times
+20147603 transitions 1 times
+20147670 transitions 1 times
+20147694 transitions 1 times
+20147733 transitions 1 times
+20147743 transitions 1 times
+20152464 transitions 1 times
+20152681 transitions 1 times
+20153168 transitions 1 times
+20153409 transitions 1 times
+20155095 transitions 1 times
+20155882 transitions 1 times
+20155904 transitions 1 times
+20156594 transitions 1 times
+20305799 transitions 1 times
+20449706 transitions 1 times
+20453915 transitions 1 times
+20463036 transitions 1 times
+20463402 transitions 1 times
+20464172 transitions 1 times
+20468224 transitions 1 times
+20468253 transitions 1 times
+20468589 transitions 1 times
+20468871 transitions 1 times
+20468967 transitions 1 times
+20469699 transitions 1 times
+20472291 transitions 1 times
+20474311 transitions 1 times
+20481000 transitions 1 times
+20483780 transitions 1 times
+20484383 transitions 1 times
+20486314 transitions 1 times
+20486912 transitions 1 times
+20488644 transitions 1 times
+20492409 transitions 1 times
+20493158 transitions 1 times
+20493179 transitions 1 times
+20495197 transitions 1 times
+20496122 transitions 1 times
+20498076 transitions 1 times
+20498177 transitions 1 times
+20498188 transitions 1 times
+20498193 transitions 1 times
+20498200 transitions 1 times
+20498347 transitions 1 times
+20498621 transitions 1 times
+20500028 transitions 1 times
+20501507 transitions 1 times
+20503334 transitions 1 times
+20503644 transitions 1 times
+20503786 transitions 1 times
+20504174 transitions 1 times
+20507521 transitions 1 times
+Collecting results and saving into files ...
+Host - Total number of matches 620
+host_functions.cu: t_postprocesscpu= 0.004000(ms)
+host_functions.cu: t_free= 36.412000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 26631.366000(ms), Input stream loading: 135.103000(ms), GPU mem alloc: 12.905000(ms), GPU kernel execution: 7643132.379000(ms), Result collecting: 875.430000(ms)
+-----------------User input info--------------------
+Total number of rules (subgraphs): 2000
+Total input bytes: 10000000
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 10000000
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 6244256
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 10000000
+Packet 1: 10000000
+Graph (NFA) 1
+   + State count: 74001
+   + State vector length: 2313
+
+tmp_avg_count: 150000000, n_packets: 1, n_subsets: 1, Maximum matches allowed: 150000000
+57012
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 1310.000000 MB, free = 13799.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 18504
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+1 transitions 151512729 times
+10 transitions 47549751 times
+11 transitions 86873249 times
+12 transitions 115588390 times
+13 transitions 147995302 times
+14 transitions 138947069 times
+15 transitions 159669970 times
+16 transitions 158362200 times
+17 transitions 178273481 times
+18 transitions 165314381 times
+19 transitions 162632281 times
+20 transitions 137019053 times
+21 transitions 120155927 times
+22 transitions 84119295 times
+23 transitions 50385395 times
+24 transitions 30713256 times
+25 transitions 17493625 times
+26 transitions 7909910 times
+27 transitions 6313667 times
+28 transitions 5790896 times
+29 transitions 2682772 times
+30 transitions 3355627 times
+31 transitions 4186176 times
+32 transitions 5115747 times
+33 transitions 4946709 times
+34 transitions 4588477 times
+35 transitions 4539008 times
+36 transitions 4662668 times
+37 transitions 3525109 times
+38 transitions 2655142 times
+39 transitions 1861008 times
+40 transitions 1097403 times
+41 transitions 379883 times
+42 transitions 770775 times
+43 transitions 443512 times
+44 transitions 114433 times
+45 transitions 34287 times
+46 transitions 36994 times
+47 transitions 9971 times
+48 transitions 334 times
+49 transitions 1076 times
+50 transitions 1558 times
+51 transitions 1410 times
+52 transitions 1784 times
+53 transitions 643 times
+54 transitions 417 times
+55 transitions 210 times
+56 transitions 18 times
+57 transitions 93 times
+59 transitions 8 times
+60 transitions 3 times
+61 transitions 3 times
+62 transitions 14 times
+63 transitions 25 times
+64 transitions 21 times
+65 transitions 36 times
+66 transitions 31 times
+67 transitions 40 times
+68 transitions 22 times
+69 transitions 13 times
+70 transitions 8 times
+71 transitions 6 times
+73 transitions 3 times
+74 transitions 5 times
+75 transitions 5 times
+2018 transitions 2374700 times
+2019 transitions 2374197 times
+2020 transitions 2373875 times
+2023 transitions 2373059 times
+2032 transitions 126008 times
+2035 transitions 251828 times
+2039 transitions 126215 times
+2049 transitions 71 times
+2051 transitions 42 times
+2063 transitions 5 times
+
+< 10: 9934
+< 50: 94246639990458
+< 100: 139719581106178
+< 500: 94244467376899
+< 1000: 74002
+< 5000: 36028805827002901
+>= 5000: 139721277831726
+Collecting results and saving into files ...
+Host - Total number of matches 620
+host_functions.cu: t_postprocesscpu= 0.002000(ms)
+host_functions.cu: t_free= 35.632000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 26490.829000(ms), Input stream loading: 141.104000(ms), GPU mem alloc: 13.013000(ms), GPU kernel execution: 7615923.708000(ms), Result collecting: 867.484000(ms)

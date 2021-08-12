@@ -1,0 +1,141 @@
+-----------------User input info--------------------
+Total number of rules (subgraphs): 1719
+Total input bytes: 1072482
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 1072482
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 12717418
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 1072482
+Packet 1: 1072484
+Graph (NFA) 1
+   + State count: 51571
+   + State vector length: 1612
+
+tmp_avg_count: 16087260, n_packets: 1, n_subsets: 1, Maximum matches allowed: 16087260
+4008792
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Testing: 1
+GPU memory usage: used = 336.000000 MB, free = 14773.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 12896
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+total active bits = 52131630985
+0: 40964741226
+1: 486594088
+2: 140957457
+3: 24303086
+4: 171768801
+5: 6281093718
+6: 3366024647
+7: 19214407
+8: 3798628
+9: 8391333
+10: 214528167
+11: 297428058
+12: 38928345
+13: 1685060
+14: 1625901
+15: 7965652
+16: 25124067
+17: 6938957
+18: 351312
+19: 183695
+20: 82408
+21: 427810
+22: 757275
+23: 88133
+24: 1296161
+25: 235108
+26: 326061
+27: 414027
+28: 93572
+29: 27410
+30: 32856
+31: 68774
+32: 66134785
+
+Num active frequency
+0: 0.785794
+1: 0.00933395
+2: 0.00270388
+3: 0.000466187
+4: 0.00329491
+5: 0.120485
+6: 0.0645678
+7: 0.000368575
+8: 7.28661e-05
+9: 0.000160964
+10: 0.00411512
+11: 0.00570533
+12: 0.000746732
+13: 3.23232e-05
+14: 3.11884e-05
+15: 0.000152799
+16: 0.000481935
+17: 0.000133105
+18: 6.73894e-06
+19: 3.52368e-06
+20: 1.58077e-06
+21: 8.20634e-06
+22: 1.45262e-05
+23: 1.69059e-06
+24: 2.48632e-05
+25: 4.50989e-06
+26: 6.25457e-06
+27: 7.94195e-06
+28: 1.79492e-06
+29: 5.25784e-07
+30: 6.30251e-07
+31: 1.31924e-06
+32: 0.00126861
+
+Frequency when group active
+1: 0.0435747
+2: 0.0126228
+3: 0.00217635
+4: 0.015382
+5: 0.562475
+6: 0.301429
+7: 0.00172066
+8: 0.000340169
+9: 0.000751448
+10: 0.0192111
+11: 0.0266348
+12: 0.00348605
+13: 0.000150898
+14: 0.0001456
+15: 0.000713328
+16: 0.00224987
+17: 0.000621387
+18: 3.14601e-05
+19: 1.645e-05
+20: 7.37967e-06
+21: 3.83106e-05
+22: 6.78143e-05
+23: 7.89235e-06
+24: 0.000116072
+25: 2.1054e-05
+26: 2.91989e-05
+27: 3.70763e-05
+28: 8.37941e-06
+29: 2.45458e-06
+30: 2.94227e-06
+31: 6.15874e-06
+32: 0.0059224
+Collecting results and saving into files ...
+Host - Total number of matches 1402433
+host_functions.cu: t_postprocesscpu= 0.002000(ms)
+host_functions.cu: t_free= 3.636000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 39149.231000(ms), Input stream loading: 19.506000(ms), GPU mem alloc: 19.183000(ms), GPU kernel execution: 66054.634000(ms), Result collecting: 25.176000(ms)

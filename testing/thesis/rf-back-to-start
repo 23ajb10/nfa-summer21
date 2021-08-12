@@ -1,0 +1,16 @@
+RANDOMFOREST --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 8000
+Total input bytes: 4643101
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 4643101
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 55564321
+total states 248001
+states w/ transition back to start 8001
+
+NFA loading done!!!
+

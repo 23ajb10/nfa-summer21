@@ -1,0 +1,315 @@
+RANDOMFOREST
+-----------------User input info--------------------
+Total number of rules (subgraphs): 8000
+Total input bytes: 4643101
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 4643101
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 55564321
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 4643101
+Packet 1: 4643104
+Graph (NFA) 1
+   + Shared memory size: 62008
+   + State count: 248001
+   + State vector length: 7751
+
+tmp_avg_count: 69646560, n_packets: 1, n_subsets: 1, Maximum matches allowed: 69646560
+GPU memory usage: used = 1092.000000 MB, free = 14017.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+max dynamic shared mem 97
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 62008
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 462000
+host_functions.cu: t_postprocesscpu= 1694.688000(ms)
+host_functions.cu: t_free= 19.005000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 191657.724000(ms), Input stream loading: 65.873000(ms), GPU mem alloc: 74.715000(ms), GPU kernel execution: 765174.901000(ms), Result collecting: 404.740000(ms)
+==PROF== Connected to process 388 (/home/ubuntu/thesis/iNFAnt2/bin/nfa_engine)
+==PROF== Disconnected from process 388
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","388","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*)","2021-Aug-11 15:30:29","1","7","Command line profiler metrics","dram__bytes_read.sum","byte","5456104356768"
+SNORT --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 2486
+Total input bytes: 29089298
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 29089298
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 23101971
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 29089298
+Packet 1: 29089300
+Graph (NFA) 1
+   + Shared memory size: 50512
+   + State count: 202044
+   + State vector length: 6314
+
+tmp_avg_count: 436339500, n_packets: 1, n_subsets: 1, Maximum matches allowed: 436339500
+GPU memory usage: used = 3642.000000 MB, free = 11467.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+max dynamic shared mem 97
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 50512
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 60865710
+host_functions.cu: t_postprocesscpu= 211948.358000(ms)
+host_functions.cu: t_free= 98.200000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 74688.055000(ms), Input stream loading: 425.667000(ms), GPU mem alloc: 41.471000(ms), GPU kernel execution: 1164953.052000(ms), Result collecting: 2531.358000(ms)
+-----------------User input info--------------------
+Total number of rules (subgraphs): 2486
+Total input bytes: 29089298
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 29089298
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 23101971
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 29089298
+Packet 1: 29089300
+Graph (NFA) 1
+   + Shared memory size: 50512
+   + State count: 202044
+   + State vector length: 6314
+
+tmp_avg_count: 436339500, n_packets: 1, n_subsets: 1, Maximum matches allowed: 436339500
+GPU memory usage: used = 3668.000000 MB, free = 11441.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+max dynamic shared mem 97
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 50512
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 60865710
+host_functions.cu: t_postprocesscpu= 211495.343000(ms)
+host_functions.cu: t_free= 108.785000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 74954.039000(ms), Input stream loading: 408.305000(ms), GPU mem alloc: 41.757000(ms), GPU kernel execution: 2203837.343000(ms), Result collecting: 2541.929000(ms)
+==PROF== Connected to process 805 (/home/ubuntu/thesis/iNFAnt2/bin/nfa_engine)
+==PROF== Disconnected from process 805
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","805","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*)","2021-Aug-11 16:32:46","1","7","Command line profiler metrics","dram__bytes_read.sum","byte","15876416585536"
+LEVENSHTEIN --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 1000
+Total input bytes: 10000001
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 10000001
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 52724256
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 10000001
+Packet 1: 10000004
+Graph (NFA) 1
+   + Shared memory size: 27256
+   + State count: 109001
+   + State vector length: 3407
+
+tmp_avg_count: 150000060, n_packets: 1, n_subsets: 1, Maximum matches allowed: 150000060
+GPU memory usage: used = 1664.000000 MB, free = 13445.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+max dynamic shared mem 97
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 27256
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 7902
+host_functions.cu: t_postprocesscpu= 170.859000(ms)
+host_functions.cu: t_free= 5.006000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 139491.298000(ms), Input stream loading: 148.442000(ms), GPU mem alloc: 72.672000(ms), GPU kernel execution: 984968.934000(ms), Result collecting: 228.825000(ms)
+-----------------User input info--------------------
+Total number of rules (subgraphs): 1000
+Total input bytes: 10000001
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 10000001
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 52724256
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 10000001
+Packet 1: 10000004
+Graph (NFA) 1
+   + Shared memory size: 27256
+   + State count: 109001
+   + State vector length: 3407
+
+tmp_avg_count: 150000060, n_packets: 1, n_subsets: 1, Maximum matches allowed: 150000060
+GPU memory usage: used = 1690.000000 MB, free = 13419.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+max dynamic shared mem 97
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 27256
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 7902
+host_functions.cu: t_postprocesscpu= 28.784000(ms)
+host_functions.cu: t_free= 5.003000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 141562.549000(ms), Input stream loading: 141.736000(ms), GPU mem alloc: 72.880000(ms), GPU kernel execution: 1998393.032000(ms), Result collecting: 226.570000(ms)
+==PROF== Connected to process 10792 (/home/ubuntu/thesis/iNFAnt2/bin/nfa_engine)
+==PROF== Disconnected from process 10792
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","10792","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*)","2021-Aug-11 17:30:46","1","7","Command line profiler metrics","dram__bytes_read.sum","byte","5526992181984"
+FILECARVER --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 9
+Total input bytes: 64979456
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 64979456
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Impossibile aprire il file ../testin/nfas/AutomataZoo/automata/File_Carver_1/1.nfa
+Error while loading NFA on the device
+-----------------User input info--------------------
+Total number of rules (subgraphs): 9
+Total input bytes: 0
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 0
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Impossibile aprire il file ../nfas/AutomataZoo/automata/File_Carver_1/1.nfa
+Error while loading NFA on the device
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+HAMMING --------------------------
+-----------------User input info--------------------
+Total number of rules (subgraphs): 1000
+Total input bytes: 10000000
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 10000000
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 19997256
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 10000000
+Packet 1: 10000000
+Graph (NFA) 1
+   + Shared memory size: 27008
+   + State count: 108001
+   + State vector length: 3376
+
+tmp_avg_count: 150000000, n_packets: 1, n_subsets: 1, Maximum matches allowed: 150000000
+GPU memory usage: used = 1416.000000 MB, free = 13693.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+max dynamic shared mem 97
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 27008
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 3388
+host_functions.cu: t_postprocesscpu= 12.742000(ms)
+host_functions.cu: t_free= 4.832000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 61696.899000(ms), Input stream loading: 147.393000(ms), GPU mem alloc: 30.534000(ms), GPU kernel execution: 247068.819000(ms), Result collecting: 247.455000(ms)
+-----------------User input info--------------------
+Total number of rules (subgraphs): 1000
+Total input bytes: 10000000
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 10000000
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Total transitions (including paddings): 19997256
+
+NFA loading done!!!
+
+-----------------Starting nfa execution--------------------
+Number of processed packets: 1 and total number of bytes: 10000000
+Packet 1: 10000000
+Graph (NFA) 1
+   + Shared memory size: 27008
+   + State count: 108001
+   + State vector length: 3376
+
+tmp_avg_count: 150000000, n_packets: 1, n_subsets: 1, Maximum matches allowed: 150000000
+GPU memory usage: used = 1442.000000 MB, free = 13667.750000 MB, total = 15109.750000 MB
+GPU MultiProcessors: 40
+max dynamic shared mem 97
+Blocksize tuning is NOT used!
+GPU launch info: block.x = 1024, grid.x = 1, grid.y = 1, shmem = 27008
+GPU kernel running ... 
+NFA STATE TABLE stored in global memory!
+GPU kernel done!!!
+Collecting results and saving into files ...
+Host - Total number of matches 3388
+host_functions.cu: t_postprocesscpu= 12.631000(ms)
+host_functions.cu: t_free= 3.822000(ms)
+----------------- Kernel execution done -----------------
+
+Execution times: NFA loading (from text): 61517.570000(ms), Input stream loading: 142.158000(ms), GPU mem alloc: 30.825000(ms), GPU kernel execution: 604095.561000(ms), Result collecting: 246.092000(ms)
+==PROF== Connected to process 13551 (/home/ubuntu/thesis/iNFAnt2/bin/nfa_engine)
+==PROF== Disconnected from process 13551
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","13551","nfa_engine","127.0.0.1","nfa_kernel(int*, int*, unsigned int*, unsigned int*, unsigned long*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, _match_type*, unsigned int, unsigned int*, unsigned int*, unsigned int*)","2021-Aug-11 17:47:02","1","7","Command line profiler metrics","dram__bytes_read.sum","byte","138047648"
+-----------------User input info--------------------
+Total number of rules (subgraphs): 8000
+Total input bytes: 4643101
+Graph(s) (NFA(s)) combined: 1
+Packet(s): 1
+Packet size (bytes): 4643101
+
+-----------------Loading NFA(s) from text file(s)--------------------
+Loading...
+Impossibile aprire il file ../testing/nfas/AutomataZoo/automata-modified/RemoteForest_1/1.nfa
+Error while loading NFA on the device
